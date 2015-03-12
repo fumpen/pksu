@@ -1,0 +1,34 @@
+body{margin-left:10%; margin-right:20%; padding:0; background-color:#BA780E;}
+
+#headline{color:#F5C26E; margin-left:2.5%;}
+
+#logo{display:inline-block; float:left; heigth:60px; with:20%; margin-left:2.5%;}
+
+#enesteMeny{display:inline-block; heigth:60px; with:60%;  list-style-type:none;}
+
+#logo p{ color:#F5C26E; font-size:18px;}
+
+#enesteMeny li{float:left;}
+
+#enesteMeny a{color:#F5C26E; padding-left:32px; padding-rigth:32px; text-decoration:none; font-size:20px;}
+
+#billed1{width:100%; height:75%; margin-left:0px; margin-right:0px; margin-top:10px;}
+
+#hovedTekst {color:#F5C26E; margin-left:2.5%; margin-right:2.5%;}
+
+#content {height:175px; width:100%;}
+
+#blok1 {display:block; height:50%; width:100%;}
+
+#blok1 img{float:left; height:95%; width:20%;}
+
+#blok2 {display:block; height:50%; width:100%;}
+
+#blok2 img{float:left; height:95%; width:20%;}
+
+#billed2 {padding-right:20%;} 
+#billed3 {padding-right:20%;} 
+#billed4 {padding-right:20%;} 
+#billed5 {padding-right:20%;}
+
+#bundTekst {display:block; color:#F5C26E;}
