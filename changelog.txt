@@ -1,2 +1,5 @@
 20/4- 11:55 Frederik
 delrapport 2 tilføjer tekst til punkterne 2, 3 og 4 samt uml-klassediagram
+
+21/4 01:20 Frederik:
+tilføjede lidt tekst til punkt 3 samt billederne til modellerne i punkt tre
