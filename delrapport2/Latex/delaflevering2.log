@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.7)  22 APR 2015 01:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.7)  22 APR 2015 11:34
 entering extended mode
 **delaflevering2.tex
 (C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.tex
@@ -30,6 +30,14 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -54,14 +62,14 @@ Loading kernel: messages; fonts; allocations: state,
 \D@c=\dimen106
 \L@c=\dimen107
 \R@c=\dimen108
-\Edge@c=\toks14
+\Edge@c=\toks16
 \X@p=\dimen109
 \Y@p=\dimen110
 \U@p=\dimen111
 \D@p=\dimen112
 \L@p=\dimen113
 \R@p=\dimen114
-\Edge@p=\toks15
+\Edge@p=\toks17
 \X@origin=\dimen115
 \Y@origin=\dimen116
 \X@xbase=\dimen117
@@ -72,27 +80,27 @@ Loading kernel: messages; fonts; allocations: state,
 \Y@min=\dimen122
 \X@max=\dimen123
 \Y@max=\dimen124
-\lastobjectbox@=\box26
-\zerodotbox@=\box27
+\lastobjectbox@=\box28
+\zerodotbox@=\box29
 \almostz@=\dimen125
  direction,
 \d@X=\dimen126
 \d@Y=\dimen127
-\K@=\count87
-\KK@=\count88
-\Direction=\count89
+\K@=\count88
+\KK@=\count89
+\Direction=\count90
 \K@dXdY=\dimen128
 \K@dYdX=\dimen129
 \xyread@=\read1
 \xywrite@=\write3
-\csp@=\count90
+\csp@=\count91
 \quotPTK@=\dimen130
 
 utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks16
-\connectobjectbox@@=\box28
+\swaptoks@@=\toks18
+\connectobjectbox@@=\box30
  objects,
-\styletoks@=\toks17
+\styletoks@=\toks19
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
@@ -106,9 +114,9 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: All features v.3.8
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count91
-\crvpts@=\toks18
-\splinebox@=\box29
+\crv@cnt@=\count92
+\crvpts@=\toks20
+\splinebox@=\box31
 \splineval@=\dimen131
 \splinedepth@=\dimen132
 \splinetol@=\dimen133
@@ -132,13 +140,13 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: Colour extension v.3.11 loaded)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
  Xy-pic option: Matrix feature v.3.14
-\Row=\count92
-\Col=\count93
-\queue@=\toks19
-\queue@@=\toks20
-\qcount@=\count94
-\qcount@@=\count95
-\matrixsize@=\count96
+\Row=\count93
+\Col=\count94
+\queue@=\toks21
+\queue@@=\toks22
+\qcount@=\count95
+\qcount@@=\count96
+\matrixsize@=\count97
  loaded)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
@@ -160,7 +168,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks23
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -182,7 +190,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count97
+\Gread@gobject=\count98
 ))
 \Gin@req@height=\dimen137
 \Gin@req@width=\dimen138
@@ -196,8 +204,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -413,7 +421,7 @@ Now handling font encoding U ...
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks24
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -429,7 +437,7 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks25
+\@emptytoks=\toks27
 \ex@=\dimen139
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -439,41 +447,41 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count98
+\inf@bad=\count99
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count99
-\leftroot@=\count100
+\uproot@=\count100
+\leftroot@=\count101
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count101
-\DOTSCASE@=\count102
+\classnum@=\count102
+\DOTSCASE@=\count103
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box30
-\strutbox@=\box31
+\Mathstrutbox@=\box32
+\strutbox@=\box33
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
-\tag@help=\toks26
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
-\andhelp@=\toks27
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks28
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks29
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks28
+\@envbody=\toks30
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks29
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -499,14 +507,14 @@ Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count110
+\babel@savecnt=\count111
 \U@D=\dimen148
 )
 Package babel Info: Making " an active character on input line 82.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks30
+\@enLab=\toks32
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -565,15 +573,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen149
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count114
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -585,7 +593,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count114
+\c@Hy@tempcnt=\count115
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
@@ -593,7 +601,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen150
-\Fld@menulength=\count115
+\Fld@menulength=\count116
 \Field@Width=\dimen151
 \Fld@charsize=\dimen152
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -605,17 +613,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count116
-\c@Item=\count117
-\c@Hfootnote=\count118
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count119
-\c@bookmark@seq@number=\count120
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -628,7 +636,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen153
 \extrarowheight=\dimen154
-\NC@list=\toks31
+\NC@list=\toks33
 \extratabsurround=\skip47
 \backup@length=\skip48
 )
@@ -689,12 +697,12 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@old@col=\dimen158
 \TX@target=\dimen159
 \TX@delta=\dimen160
-\TX@cols=\count121
-\TX@ftn=\toks32
+\TX@cols=\count122
+\TX@ftn=\toks34
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks33
+\everycr=\toks35
 \minrowclearance=\skip49
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
@@ -786,19 +794,19 @@ Package xypdf Info: Line width: 0.47987pt on input line 40.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
+\scratchcounter=\count123
 \scratchdimen=\dimen161
-\scratchbox=\box32
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count125
+\scratchbox=\box34
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count126
 \MPscratchDim=\dimen162
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks35
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks37
 )
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box35
 Package hyperref Info: Link coloring OFF on input line 40.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -806,7 +814,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count128
+\c@section@level=\count129
 )
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
@@ -892,44 +900,57 @@ File: useCaseModel.jpg Graphic file (type jpg)
 Package pdftex.def Info: useCaseModel.jpg used on input line 81.
 (pdftex.def)             Requested size: 343.58128pt x 222.1685pt.
 
-[5] <unfinished.jpg, id=110, 1094.0875pt x 632.3625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+[5 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/useCaseModel.jpg>]
+<unfinished.jpg, id=111, 1094.0875pt x 632.3625pt>
 File: unfinished.jpg Graphic file (type jpg)
  <use unfinished.jpg>
 Package pdftex.def Info: unfinished.jpg used on input line 91.
 (pdftex.def)             Requested size: 437.62724pt x 252.94052pt.
 
-<BCE.jpg, id=111, 576.9555pt x 398.08725pt>
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+
+ []
+
+[6] <BCE.jpg, id=116, 576.9555pt x 398.08725pt>
 File: BCE.jpg Graphic file (type jpg)
  <use BCE.jpg>
 Package pdftex.def Info: BCE.jpg used on input line 99.
 (pdftex.def)             Requested size: 346.17596pt x 238.85419pt.
 
-<adminInteraction.jpg, id=112, 551.661pt x 350.5095pt>
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+
+ []
+
+[7 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/unfinished.jpg>]
+<adminInteraction.jpg, id=123, 551.661pt x 350.5095pt>
 File: adminInteraction.jpg Graphic file (type jpg)
 
 <use adminInteraction.jpg>
 Package pdftex.def Info: adminInteraction.jpg used on input line 106.
 (pdftex.def)             Requested size: 220.66049pt x 140.20131pt.
- <adminLog-in.jpg, id=113, 538.4115pt x 325.215pt>
+ <adminLog-in.jpg, id=124, 538.4115pt x 325.215pt>
 File: adminLog-in.jpg Graphic file (type jpg)
 
 <use adminLog-in.jpg>
 Package pdftex.def Info: adminLog-in.jpg used on input line 112.
 (pdftex.def)             Requested size: 215.36078pt x 130.0837pt.
- <customerLog-in.jpg, id=114, 531.78674pt x 390.86024pt>
+ <customerLog-in.jpg, id=125, 531.78674pt x 390.86024pt>
 File: customerLog-in.jpg Graphic file (type jpg)
 
 <use customerLog-in.jpg>
 Package pdftex.def Info: customerLog-in.jpg used on input line 118.
 (pdftex.def)             Requested size: 212.71092pt x 156.34132pt.
- [6] [7] [8] [9] [10] [11]
+ [8 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/BCE.jpg> <C:/Users/freder
+ik/Desktop/pksu/delrapport2/Latex/adminInteraction.jpg> <C:/Users/frederik/Desk
+top/pksu/delrapport2/Latex/adminLog-in.jpg>] [9 <C:/Users/frederik/Desktop/pksu
+/delrapport2/Latex/customerLog-in.jpg>] [10] [11]
+[12] [13] [14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
- [12] [13 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/useCaseModel.jpg> <
-C:/Users/frederik/Desktop/pksu/delrapport2/Latex/unfinished.jpg>] [14 <C:/Users
-/frederik/Desktop/pksu/delrapport2/Latex/BCE.jpg> <C:/Users/frederik/Desktop/pk
-su/delrapport2/Latex/adminInteraction.jpg> <C:/Users/frederik/Desktop/pksu/delr
-apport2/Latex/adminLog-in.jpg>] [15 <C:/Users/frederik/Desktop/pksu/delrapport2
-/Latex/customerLog-in.jpg>]
+ [15]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
 
 (C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.aux)
@@ -940,17 +961,17 @@ Package rerunfilecheck Info: File `delaflevering2.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 10292 strings out of 493921
- 139697 string characters out of 3144867
- 275064 words of memory out of 3000000
- 13325 multiletter control sequences out of 15000+200000
+ 10348 strings out of 493921
+ 140439 string characters out of 3144867
+ 274417 words of memory out of 3000000
+ 13377 multiletter control sequences out of 15000+200000
  62146 words of font info for 122 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,8n,35p,3278b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,8n,35p,3278b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on delaflevering2.pdf (15 pages, 455221 bytes).
+Output written on delaflevering2.pdf (15 pages, 455263 bytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)

@@ -13,7 +13,7 @@
 \setlength{\topmargin}{0mm}
 \setlength{\evensidemargin}{0mm}
 
-
+\usepackage{float}
 \usepackage[T1]{fontenc}
 \usepackage[all]{xy}
 \usepackage{graphicx}    % For grafik (billederfiler)
@@ -76,23 +76,23 @@ R. Systemet skal løse administrative problematikker i henhold til at holde styr
       \textbf{Begrænsninger:} \\
 	Siden skal kunne vises på en billig computer og uden hurtigt internet til rådighed.
 \subsection{b}
-Der er vedlagt et billede, der illustrerer, hvorledes administratoren skal logge ind. Men derved også har ret til at slette bookninger og hente information, om dem der bookede et værelse. Kunden skal ikke logge ind, men har så også kun ret til at booke.\\ 
+figur 1 illustrerer, hvorledes administratoren skal logge ind. Men derved også har ret til at slette bookninger og hente information, om dem der bookede et værelse. Kunden skal ikke logge ind, men har så også kun ret til at booke.\\ 
 \begin{figure}[H]
 \includegraphics[scale=0.7]{useCaseModel.jpg}
 \caption{Use Case model}
 \end{figure}
 \subsection{c}
-\textbf{1.} Admin log-in. Her indtastes administratorens oplysninger på log-in skærmen. Dette bliver 	videreført til sikkerhedsverificering, som beder beholdningen af administrator oplysninger 	om at lede efter et match. Hvis dette match findes, bliver man logget in, ellers bliver man 	afvist. \\
-	\textbf{2.} Admin interaktion. administratoren logger ind (trin 1), og kommer ind på 	administratorsiden. Her forespørger administrator siden om information på et rum eller at 	oprette/slette en bookning. Dette bliver sendt til validering, som tjekker om informationen er 	meningsfuld (fx om man vil oprette en bookning, til en dato der er passeret). Herefter bliver 	informationen sendt videre til booking databasen, hvor oplysninger bliver hentet og tilbage 	forbi validering, hvor man igen validere (fx om man opretter en booking på et allerede 	optaget værelse). Bliver forespørgselen på noget tidspunkt dømt invalid, vil man på 	administrator siden modtage passende fejlmeddelelse. Hvis alt går godt, vil man få sin 	information eller få at vide at oprettelsen/fjernelsen af en bookning skete planmæssigt.\\
-	\textbf{3.} kunde booking. Her indtaster kunden sine oplysninger på booking siden, og disse 	oplysninger bliver sendt videre til validering (fx for få cifre i tlf. nummer). Passere kunden 	dette bliver forespørgslen sendt videre til booking databasen, som oplyser validering, om det 	ønskede værelse er ledigt for booking, hvorefter validering genevaluerer. Hvis forespørgslen 	er acceptabel, bliver ændringen gennemført, hvorefter kunden bliver informeret om en 		succesfuld booking. Hvis validation på noget tidspunkt i processen validerer til falskt, bliver 	processen stoppet, og kunden bliver i stedet mødt af en fejlmeddelelse.
+\textbf{1.} Admin log-in(figur 5). Her indtastes administratorens oplysninger på log-in skærmen. Dette bliver 	videreført til sikkerhedsverificering, som beder beholdningen af administrator oplysninger 	om at lede efter et match. Hvis dette match findes, bliver man logget in, ellers bliver man 	afvist. \\
+	\textbf{2.} Admin interaktion(figur 4). administratoren logger ind (trin 1), og kommer ind på 	administratorsiden. Her forespørger administrator siden om information på et rum eller at 	oprette/slette en bookning. Dette bliver sendt til validering, som tjekker om informationen er 	meningsfuld (fx om man vil oprette en bookning, til en dato der er passeret). Herefter bliver 	informationen sendt videre til booking databasen, hvor oplysninger bliver hentet og tilbage 	forbi validering, hvor man igen validere (fx om man opretter en booking på et allerede 	optaget værelse). Bliver forespørgselen på noget tidspunkt dømt invalid, vil man på 	administrator siden modtage passende fejlmeddelelse. Hvis alt går godt, vil man få sin 	information eller få at vide at oprettelsen/fjernelsen af en bookning skete planmæssigt.\\
+	\textbf{3.} kunde booking(figur 6). Her indtaster kunden sine oplysninger på booking siden, og disse 	oplysninger bliver sendt videre til validering (fx for få cifre i tlf. nummer). Passere kunden 	dette bliver forespørgslen sendt videre til booking databasen, som oplyser validering, om det 	ønskede værelse er ledigt for booking, hvorefter validering genevaluerer. Hvis forespørgslen 	er acceptabel, bliver ændringen gennemført, hvorefter kunden bliver informeret om en 		succesfuld booking. Hvis validation på noget tidspunkt i processen validerer til falskt, bliver 	processen stoppet, og kunden bliver i stedet mødt af en fejlmeddelelse.
 \subsection{d}
-Siden vi endnu mangler meget erfaring inden for web-programmering, er vi ikke sikre på, at følgende fremgangsmåde vil virke. Vores foreløbige ide til at lave et bookingsystem er som følger i billedet, at vi laver en klasse, som styrer de forskellige rum i hostelet(Main). Så laver vi en klasse, der holder styr på hvor mange senge, hvert værelse har samt en ”kalender” pr. værelse(Room). Så har vi en klasse, der holder styr på reservationerne(booking). Derudover er der en klasse, der holder styr på tidsenheder(), og en der holder styr på personinformation(Customer). Dette er indskrevet med java i tankerne, men vi er som sagt ikke klar over, hvordan man eksekvere kode i sin html-kode endnu, så dette er et work-in-progress.\\
+(figur 2) Siden vi endnu mangler meget erfaring inden for web-programmering, er vi ikke sikre på, at følgende fremgangsmåde vil virke. Vores foreløbige ide til at lave et bookingsystem er som følger i billedet, at vi laver en klasse, som styrer de forskellige rum i hostelet(Main). Så laver vi en klasse, der holder styr på hvor mange senge, hvert værelse har samt en ”kalender” pr. værelse(Room). Så har vi en klasse, der holder styr på reservationerne(booking). Derudover er der en klasse, der holder styr på tidsenheder(), og en der holder styr på personinformation(Customer). Dette er indskrevet med java i tankerne, men vi er som sagt ikke klar over, hvordan man eksekvere kode i sin html-kode endnu, så dette er et work-in-progress.\\
 \begin{figure}[H]
 \includegraphics[scale=0.4]{unfinished.jpg}
 \caption{Booking system - UML}
 \end{figure}
 \subsection{e}
-”Home” siden og ”admin log-in” siden er vores  boundary objects, da de er det første i vores system, man støder på.
+(figur 3)”Home” siden og ”admin log-in” siden er vores  boundary objects, da de er det første i vores system, man støder på.
 Vores entity objects omfatter alle vores web sider(udover dem der er boudary objects!), da de udgør en meningsfuld del af systemet. Derudover er vores ”admin credentials database” og vores ”booking database” også betragtet som entities, da de indeholder al information i systemet.
 Vores control objects er ”admin log-in”, ”create booking”, ”delete booking” og ”retrive info”. Dette er de, fordi de ikke selv opbevarer noget information, men spiller en afgørende rolle i, hvad for noget infromation der bliver lagret/slettet. \\
 \begin{figure}[H]

@@ -3,3 +3,12 @@ delrapport 2 tilføjer tekst til punkterne 2, 3 og 4 samt uml-klassediagram
 
 21/4 01:20 Frederik:
 tilføjede lidt tekst til punkt 3 samt billederne til modellerne i punkt tre
+
+21/4 14-15:00 Jeppe/Rose:
+uploadede punkt 1, 5, 7 samt rewiev's
+
+21/4 21-22:00 Jeppe:
+indsatte punkt 6  og satte titler/numre på billederne i punkt 3 
+
+22/4 12:00 Frederik:
+forslag til endelig aflevering uploaded 
