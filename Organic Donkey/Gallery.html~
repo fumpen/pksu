@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	<meta charset="utf-8"/>
+	<title> Gallery </title>
+	<link rel ="stylesheet" href="style.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+	<div id="page">
+            <div id="menu">
+		<ul>
+                    <li><a class="active" href="index.html"><span>Home</span></a></li>
+                    <li><a href="#"><span>Activities</span></a></li>
+                    <li><a href="#"><span>Booking</span></a></li>
+                    <li><a href="Gallery.html"><span>Gallery</span></a></li>
+                    <li><a href="#"><span>Contact</span></a></li>
+		</ul>
+            </div>
+	    <div id="logo">
+		<h1>Gallery</h1>
+	    </div>
+	    <div id="slider">
+		<ul class="slides">
+		    <li class="slide slide1"><img src="images/slide1.jpg" alt="" /></li>
+		    <li class="slide slide2"><img src="images/slide2.jpg" alt="" /></li>
+		    <li class="slide slide3"><img src="images/slide3.jpg" alt="" /></li>
+		    <li class="slide slide4"><img src="images/slide4.jpg" alt="" /></li>
+		    <li class="slide slide5"><img src="images/slide4.jpg" alt="" /></li>
+		</ul>
+	    </div>
+	    <div id="content">
+		<div class="post">
+		    <h2>Organic Hostel * Isla Magarita</h2>
+		    <p class="postmeta"> April 20, 2015</p>
+		    <div class="entry">
+                        <p>adkwkdakdkwkdawkdkawkdawkdkwkdakdkwkdakdkwakdakkdwak.</p>
+                        <p>adkskdaskdksakdk. adkskdssakkdsak.</p>
+                        <p>daowoakodkpwakpdao.dksadkaskdksadksakdskl.</p>
+		    </div>
+		</div>
+	    </div>
+	    <div id="footer">
+		<p>Copyright &copy; 2015</p>
+            </div>
+	</div>
+	<script>
+	    $(function(){
+	    });
+	</script>
+    </body>
+</html>
