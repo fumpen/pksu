@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../javaScript/jquery-ui.js"></script>
+        <script src="../javaScript/jquery.js"></script>
+        <link rel="stylesheet" href="jquery-ui.css">
+
+        <script>
+            $(function() {
+                $( "#datepicker" ).datepicker({
+                 });
+            });
+        </script>
+    </head>
+
+    <body>
+
+
+
+
+    <form action="@routes.Application.addBooking()" method="post">
+        <input type="text" name="name" />
+        <input type="text" name="lname"/>
+        <input type="text" name="dato" id="datepicker"/>
+        <button>add Person</button>
+    </form>
+
+
+    </body>
+</html>
