@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    padding-bottom: 40px;
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #5A4D40;
+   background: #F6F5F5 url('../images/billeder/bg.gif') repeat-x;
+}
+
+h1 {
+    float: left;
+    padding: 50px 0 0 10px;
+    font: normal 48px/60px Georgia, Times, serif;
+    letter-spacing: -2px;
+    color: #431904;
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    height: 76px;
+}
+
+#menu ul {
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin-left: 3px;
+    font-size: 20px;
+    line-height: 76px;
+    text-align: center;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    margin-top:10px;
+    padding: 0 11px 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    height: 120px;
+}
+
+p {
+    padding: .8em 0;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+#mainimg {
+    display: block;
+    height: 392px;
+    width:952px;
+    padding: 3px;
+    margin-bottom: 40px;
+    border: 1px solid #CD9365;
+}
+
+#content {
+    float: left;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+#content .post {
+    padding: 0 0 3.5em 0;
+}
+
+#content h2 {
+    font: 3em Georgia, Times, serif;
+    color: #808E18;
+    letter-spacing: -1px;
+}
+p.postmeta {
+    padding: 0 0 0 15px;
+    margin: 10px 0;
+    line-height: 32px;
+}
+#footer {
+    clear: both;
+    padding: 20px 40px;
+    border-top: 10px solid #431904;
+}
+
+#footer p {
+    font-size: .92em;
+    text-align: center;
+}
+
+
+#slideshow #slideshowWindow {    
+    height:392px;
+    width:952px;
+    margin-bottom:40px;
+    padding:0;
+    position:relative;
+    overflow:hidden;
+    border: 1px solid #CD9365;
+}
+
+#slideshow #slideshowWindow .slide {
+    margin:0;
+    padding:0;
+    width:952px; 
+    height:392px;
+    position:relative;
+}
+
+#slideshow #slideshowWindow .slide .slideText {
+	position:absolute;
+	top:260px;
+	left:0px;
+	width:100%;
+	height:260px;
+	margin:0;
+	padding:0;
+	background: rgba(204, 204, 204, 0.3);
+	-pie-background: rgba(204, 204, 204 , 0.3);
+	behavior: url(PIE.htc);
+	background-repeat:repeat;
+	color:#ffffff;
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+#slideshow #slideshowWindow .slide .slideText h2, 
+#slideshow #slideshowWindow .slide .slideText p {
+	margin:10px 0 0 10px;
+	padding:0;
+}
+
+.googleMap{
+    padding:3px
+    margin-bottom:40px;
+}
