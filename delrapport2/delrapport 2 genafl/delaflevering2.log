@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.7)  7 MAY 2015 18:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.7)  7 MAY 2015 18:46
 entering extended mode
 **delaflevering2.tex
-(C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.tex
+
+("C:\Users\frederik\Desktop\pksu\delrapport2\delrapport 2 genafl\delaflevering2
+.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -335,6 +337,10 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count92
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
@@ -343,7 +349,32 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks21
+\c@algorithm=\count94
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count95
+\c@ALG@rem=\count96
+\c@ALG@nested=\count97
+\ALG@tlm=\skip59
+\ALG@thistlm=\skip60
+\c@ALG@Lnr=\count98
+\c@ALG@blocknr=\count99
+\c@ALG@storecount=\count100
+\c@ALG@tmpcounter=\count101
+\ALG@tmplength=\skip61
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
@@ -367,14 +398,14 @@ Loading kernel: messages; fonts; allocations: state,
 \D@c=\dimen133
 \L@c=\dimen134
 \R@c=\dimen135
-\Edge@c=\toks21
+\Edge@c=\toks22
 \X@p=\dimen136
 \Y@p=\dimen137
 \U@p=\dimen138
 \D@p=\dimen139
 \L@p=\dimen140
 \R@p=\dimen141
-\Edge@p=\toks22
+\Edge@p=\toks23
 \X@origin=\dimen142
 \Y@origin=\dimen143
 \X@xbase=\dimen144
@@ -391,21 +422,21 @@ Loading kernel: messages; fonts; allocations: state,
  direction,
 \d@X=\dimen153
 \d@Y=\dimen154
-\K@=\count94
-\KK@=\count95
-\Direction=\count96
+\K@=\count102
+\KK@=\count103
+\Direction=\count104
 \K@dXdY=\dimen155
 \K@dYdX=\dimen156
 \xyread@=\read1
 \xywrite@=\write3
-\csp@=\count97
+\csp@=\count105
 \quotPTK@=\dimen157
 
 utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks23
+\swaptoks@@=\toks24
 \connectobjectbox@@=\box30
  objects,
-\styletoks@=\toks24
+\styletoks@=\toks25
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
@@ -419,8 +450,8 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: All features v.3.8
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
  Xy-pic option: Curve and Spline extension v.3.12 curve,
-\crv@cnt@=\count98
-\crvpts@=\toks25
+\crv@cnt@=\count106
+\crvpts@=\toks26
 \splinebox@=\box31
 \splineval@=\dimen158
 \splinedepth@=\dimen159
@@ -445,13 +476,13 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  Xy-pic option: Colour extension v.3.11 loaded)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
  Xy-pic option: Matrix feature v.3.14
-\Row=\count99
-\Col=\count100
-\queue@=\toks26
-\queue@@=\toks27
-\qcount@=\count101
-\qcount@@=\count102
-\matrixsize@=\count103
+\Row=\count107
+\Col=\count108
+\queue@=\toks27
+\queue@@=\toks28
+\qcount@=\count109
+\qcount@@=\count110
+\matrixsize@=\count111
  loaded)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
@@ -491,7 +522,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count104
+\Gread@gobject=\count112
 ))
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
@@ -505,7 +536,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks28
+\@emptytoks=\toks29
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -513,7 +544,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip59
+\@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -521,7 +552,7 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks29
+\@emptytoks=\toks30
 \ex@=\dimen166
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
@@ -531,13 +562,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count105
+\inf@bad=\count113
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count106
-\leftroot@=\count107
+\uproot@=\count114
+\leftroot@=\count115
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count108
-\DOTSCASE@=\count109
+\classnum@=\count116
+\DOTSCASE@=\count117
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -546,26 +577,26 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count110
-\c@MaxMatrixCols=\count111
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
 \dotsspace@=\muskip10
-\c@parentequation=\count112
-\dspbrk@lvl=\count113
-\tag@help=\toks30
-\row@=\count114
-\column@=\count115
-\maxfields@=\count116
-\andhelp@=\toks31
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
+\tag@help=\toks31
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
+\andhelp@=\toks32
 \eqnshift@=\dimen169
 \alignsep@=\dimen170
 \tagshift@=\dimen171
 \tagwidth@=\dimen172
 \totwidth@=\dimen173
 \lineht@=\dimen174
-\@envbody=\toks32
-\multlinegap=\skip60
-\multlinetaggap=\skip61
-\mathdisplay@stack=\toks33
+\@envbody=\toks33
+\multlinegap=\skip63
+\multlinetaggap=\skip64
+\mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -591,14 +622,14 @@ Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
-\babel@savecnt=\count117
+\babel@savecnt=\count125
 \U@D=\dimen175
 )
 Package babel Info: Making " an active character on input line 82.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks34
+\@enLab=\toks35
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -657,15 +688,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen176
-\Hy@linkcounter=\count118
-\Hy@pagecounter=\count119
+\Hy@linkcounter=\count126
+\Hy@pagecounter=\count127
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count120
+\Hy@SavedSpaceFactor=\count128
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -677,7 +708,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count121
+\c@Hy@tempcnt=\count129
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
@@ -685,7 +716,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen177
-\Fld@menulength=\count122
+\Fld@menulength=\count130
 \Field@Width=\dimen178
 \Fld@charsize=\dimen179
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -697,24 +728,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count123
-\c@Item=\count124
-\c@Hfootnote=\count125
+\Hy@abspage=\count131
+\c@Item=\count132
+\c@Hfootnote=\count133
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+\Fld@listcount=\count134
+\c@bookmark@seq@number=\count135
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip62
+\Hy@SectionHShift=\skip65
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
@@ -768,8 +799,8 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks35
-\minrowclearance=\skip63
+\everycr=\toks36
+\minrowclearance=\skip66
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -789,9 +820,31 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
 \symusualmathcal=\mathgroup8
 
-(C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.aux
+("C:\Users\frederik\Desktop\pksu\delrapport2\delrapport 2 genafl\delaflevering2
+.aux"
 
 LaTeX Warning: Label `tab:title' multiply defined.
 
@@ -808,114 +861,116 @@ LaTeX Warning: Label `tab:title' multiply defined.
 LaTeX Warning: Label `tab:title' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 87.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 48.
+LaTeX Info: Redefining \selectfont on input line 87.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 48
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 87
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 48
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 87
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 48
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 87
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 48
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 87
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
-Package xypdf Info: Line width: 0.47987pt on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+Package xypdf Info: Line width: 0.47987pt on input line 87.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count136
 \scratchdimen=\dimen181
 \scratchbox=\box34
-\nofMPsegments=\count129
-\nofMParguments=\count130
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count131
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count139
 \MPscratchDim=\dimen182
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks37
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks38
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 87.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count134
+\c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
 
-(C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.out)
-(C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.out)
+("C:\Users\frederik\Desktop\pksu\delrapport2\delrapport 2 genafl\delaflevering2
+.out")
+("C:\Users\frederik\Desktop\pksu\delrapport2\delrapport 2 genafl\delaflevering2
+.out")
 \@outlinefile=\write4
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
 
 LaTeX Warning: No \author given.
@@ -924,167 +979,189 @@ LaTeX Warning: No \author given.
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 94.
 
-(C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.toc
+("C:\Users\frederik\Desktop\pksu\delrapport2\delrapport 2 genafl\delaflevering2
+.toc"
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write5
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 97--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--107
+
+ []
+
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 [4]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 79.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 141.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--86
+Underfull \hbox (badness 10000) in paragraph at lines 142--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--86
+Underfull \hbox (badness 10000) in paragraph at lines 142--154
 
  []
 
-<useCaseModel.jpg, id=104, 490.83376pt x 317.38576pt>
-File: useCaseModel.jpg Graphic file (type jpg)
- <use useCaseModel.jpg>
-Package pdftex.def Info: useCaseModel.jpg used on input line 89.
-(pdftex.def)             Requested size: 343.58128pt x 222.1685pt.
+<usecasemodelV2.jpg, id=104, 553.46774pt x 373.395pt>
+File: usecasemodelV2.jpg Graphic file (type jpg)
+ <use usecasemodelV2.jpg>
+Package pdftex.def Info: usecasemodelV2.jpg used on input line 157.
+(pdftex.def)             Requested size: 387.42477pt x 261.37471pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--91
-
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 96.
-See the caption package documentation for explanation.
-
-[5 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/useCaseModel.jpg>]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 116.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 136.
-See the caption package documentation for explanation.
-
-[6] <unfinished.jpg, id=123, 1094.0875pt x 632.3625pt>
-File: unfinished.jpg Graphic file (type jpg)
- <use unfinished.jpg>
-Package pdftex.def Info: unfinished.jpg used on input line 155.
-(pdftex.def)             Requested size: 437.62724pt x 252.94052pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[7]
+[5 <C:/Users/frederik/Desktop/pksu/delrapport2/delrapport 2 genafl/usecasemodel
+V2.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 161.
+(caption)                particular \caption on input line 165.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 178.
+(caption)                particular \caption on input line 185.
 See the caption package documentation for explanation.
 
-[8 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/unfinished.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 198.
+(caption)                particular \caption on input line 205.
 See the caption package documentation for explanation.
 
-<adminInteraction.jpg, id=139, 551.661pt x 350.5095pt>
+[6] <BookingSystem.jpg, id=122, 250.9375pt x 361.35pt>
+File: BookingSystem.jpg Graphic file (type jpg)
+ <use BookingSystem.jpg>
+Package pdftex.def Info: BookingSystem.jpg used on input line 224.
+(pdftex.def)             Requested size: 150.56364pt x 216.81168pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 232.
+See the caption package documentation for explanation.
+
+[7 <C:/Users/frederik/Desktop/pksu/delrapport2/delrapport 2 genafl/BookingSyste
+m.jpg>]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 249.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 269.
+See the caption package documentation for explanation.
+
+<adminInteraction.jpg, id=133, 551.661pt x 350.5095pt>
 File: adminInteraction.jpg Graphic file (type jpg)
 
 <use adminInteraction.jpg>
-Package pdftex.def Info: adminInteraction.jpg used on input line 211.
-(pdftex.def)             Requested size: 220.66049pt x 140.20131pt.
- <adminLog-in.jpg, id=140, 538.4115pt x 325.215pt>
+Package pdftex.def Info: adminInteraction.jpg used on input line 283.
+(pdftex.def)             Requested size: 330.99915pt x 210.30733pt.
+ [8]
+<adminLog-in.jpg, id=141, 538.4115pt x 325.215pt>
 File: adminLog-in.jpg Graphic file (type jpg)
+ <use adminLog-in.jpg>
+Package pdftex.def Info: adminLog-in.jpg used on input line 289.
+(pdftex.def)             Requested size: 323.0494pt x 195.1305pt.
 
-<use adminLog-in.jpg>
-Package pdftex.def Info: adminLog-in.jpg used on input line 217.
-(pdftex.def)             Requested size: 215.36078pt x 130.0837pt.
- [9 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/adminInteraction.jpg>] <c
-ustomerLog-in.jpg, id=148, 531.78674pt x 390.86024pt>
+Underfull \hbox (badness 10000) in paragraph at lines 286--291
+
+ []
+
+<customerLog-in.jpg, id=142, 531.78674pt x 390.86024pt>
 File: customerLog-in.jpg Graphic file (type jpg)
 
 <use customerLog-in.jpg>
-Package pdftex.def Info: customerLog-in.jpg used on input line 223.
-(pdftex.def)             Requested size: 212.71092pt x 156.34132pt.
- [10 <C:/Users/frederik/Desktop/pksu/delrapport2/Latex/adminLog-in.jpg> <C:/Use
-rs/frederik/Desktop/pksu/delrapport2/Latex/customerLog-in.jpg>] [11] [12] [13] 
-[14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+Package pdftex.def Info: customerLog-in.jpg used on input line 295.
+(pdftex.def)             Requested size: 319.07451pt x 234.51794pt.
 
-(C:\Users\frederik\Desktop\pksu\delrapport2\Latex\delaflevering2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Underfull \hbox (badness 10000) in paragraph at lines 292--297
+
+ []
+
+[9 <C:/Users/frederik/Desktop/pksu/delrapport2/delrapport 2 genafl/adminInterac
+tion.jpg> <C:/Users/frederik/Desktop/pksu/delrapport2/delrapport 2 genafl/admin
+Log-in.jpg>] [10 <C:/Users/frederik/Desktop/pksu/delrapport2/delrapport 2 genaf
+l/customerLog-in.jpg>] [11] [12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
+
+("C:\Users\frederik\Desktop\pksu\delrapport2\delrapport 2 genafl\delaflevering2
+.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `delaflevering2.out' has not changed.
-(rerunfilecheck)             Checksum: 435258A0047ED711B72B5A610BD91B08;952.
+(rerunfilecheck)             Checksum: 04F7EA43BE2E32DB45D9BA6D0125B79D;952.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 11499 strings out of 493921
- 161588 string characters out of 3144867
- 297361 words of memory out of 3000000
- 14493 multiletter control sequences out of 15000+200000
- 62146 words of font info for 122 fonts, out of 3000000 for 9000
+ 12009 strings out of 493921
+ 169768 string characters out of 3144867
+ 305754 words of memory out of 3000000
+ 14983 multiletter control sequences out of 15000+200000
+ 44371 words of font info for 91 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,12n,38p,3278b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on delaflevering2.pdf (16 pages, 370417 bytes).
+Output written on delaflevering2.pdf (14 pages, 366620 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

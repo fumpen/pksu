@@ -1,0 +1,110 @@
+sub C
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{\textbf{Admin log-in}} \label{tab:title}
+\begin{tabular}{| p{5cm} p{10cm} |}
+\hline use-case-name & Admin log-in \\
+\hline participating actors & administratoren \\
+\hline flow of events & \begin{enumerate}
+\item administratoren intaster sit log-in på admin log-in siden og trykker på log-in knappen
+\item admindatabasen bliver spurgt om de indsendte oplysninger er rigtige.
+\item hvis der findes et match, bliver man videreført til admin-siden. Hvis ikke får man en fejlmeddelelse.
+\end{enumerate} \\
+\hline Entry conditions & ingen \\
+\hline Exit conditions & ingen \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{\textbf{Admin slet booking}} \label{tab:title}
+\begin{tabular}{| p{5cm} p{10cm} |}
+\hline use-case-name & Admin slet booking \\
+\hline participating actors & administratoren \\
+\hline flow of events & \begin{enumerate}
+\item administratoren trykker på slet knappen i tabellen ud for bookingen 
+\item ændringen bliver sendt til databasen og bookingen slettes
+\item tabellen opdateres og bookingen er slettet og vises ikke mere
+\end{enumerate} \\
+\hline Entry conditions & admin log-in \\
+\hline Exit conditions & ingen \\
+\hline
+\end{tabular}
+
+\end{minipage}
+	
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{\textbf{kunde booking}} \label{tab:title}
+\begin{tabular}{| p{5cm} p{10cm} |}
+\hline use-case-name & kunde booking \\
+\hline participating actors & kunden \\
+\hline flow of events & \begin{enumerate}
+\item kunden indtaster sine ønskede booking datoer og kontaktinformationer 
+\item kunden trykker på booking knappen og booking informationerne bliver tjekket for at verificere om bookingen ikke overlapper med andre bookinger
+\item hvis der ikke er nogen overlab, bliver bookingen oprettet og kunden bliver videresendt til "home" siden. Hvis der er overlab får kunden en fejlmeddelelse
+\end{enumerate} \\
+\hline Entry conditions & at kunden befinder sig på bookingsiden \\
+\hline Exit conditions & ingen \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+sub E!
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{\textbf{Boundary}} \label{tab:title}
+\begin{tabular}{| p{5cm} | p{10cm} |}
+\hline Admin log-in side & web-siden for administratoren som benyttes til at verificere at personen er administrator \\
+\hline kunde booking web-side & her har kunden adgang til at oprette en booking samt navigering til de andre kunde sider \\
+\hline kunde "home" web-side & her kan kunden navigere til de andre sider \\
+\hline kunde galleri web-side & her kan kunden navigere til de andre sider \\
+\hline kunde kontakt web-side & her kan kunden navigere til de andre sider \\
+\hline kunde aktiviteter web-side & her kan kunden navigere til de andre sider \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{\textbf{Control}} \label{tab:title}
+\begin{tabular}{| p{5cm} | p{10cm} |}
+\hline admin log-in \newline verificeringsknappen & facillitere forespørgslen mellem admin log-in siden og admin databasen, hvis personen er en admin, bliver vedkommende sendt videre til admin siden. hvis ikke, sker der ikke noget.\\
+\hline opret booking knap & søger databasen for overlap i dato. Hvis der ikke er sådanne konflikter skabes en booking med de givne informationer i databasen, hvis der er en konflikt vises en passende fejlmeddelelse \\
+\hline fjern booking knap & fjerner en oprettet booking fra databasen \\
+\hline rediger web-sider & redigere kundesidernes indhold i forhold til billeder og tekst ( vi ved endnu ikke hvordan dette skal implementeres) \\
+\hline "home" link & sender kunden til "home" web-page \\
+\hline booking link & sender kunden til booking web-page \\
+\hline galleri link & sender kunden til galleri web-page \\
+\hline kontakt link & sender kunden til kontakt web-page \\
+\hline aktiviteter link & sender kunden til aktiviteter web-page \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{\textbf{Entity}} \label{tab:title}
+\begin{tabular}{| p{5cm} | p{10cm} |}
+\hline Admin databasen & indeholder oplysninger om hvilke brugere der eksistere i systemet \\
+\hline administrator siden & Her har administrator mulighed for at tilse aktuelle bookninger og rette i databasen \\
+\hline booking database & indeholder alle bookinger på siden \\
+\hline
+\end{tabular}
+
+\end{minipage}

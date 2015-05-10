@@ -1,5 +1,43 @@
 \documentclass[12pt,a4paper]{article}
 
+
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{240mm}
+\setlength{\parindent}{0mm} % S{\aa} meget rykkes ind efter afsnit
+\setlength{\parskip}{\parsep}
+\setlength{\headheight}{0mm}
+\setlength{\headsep}{0mm}
+\setlength{\hoffset}{-2.5mm}
+\setlength{\voffset}{0mm}
+\setlength{\footskip}{15mm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\topmargin}{0mm}
+\setlength{\evensidemargin}{0mm}
+
+%til tables!
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% jubiii
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{algorithm,algpseudocode}
+\usepackage[T1]{fontenc}
+\usepackage[all]{xy}
+\usepackage{graphicx}    % For grafik (billederfiler)
+\usepackage[T1]{fontenc} % For at blande \textsc{} med \textbf{}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{eucal}
+\usepackage[danish]{babel}
+\usepackage{enumerate}  
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{array}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage[dvipsnames,usenames]{color}
+\usepackage{tabularx,colortbl,xcolor}
+
 \setlength{\textwidth}{165mm}
 \setlength{\textheight}{240mm}
 \setlength{\parindent}{0mm} % S{\aa} meget rykkes ind efter afsnit
@@ -45,6 +83,7 @@
 \renewcommand\tabularxcolumn[1]{C{#1}}
 % jubiii
 
+
 \begin{document}
 \title{PKSU Delrapport 2}
 \maketitle
@@ -55,40 +94,70 @@ Jeppe Schönemann Skov, Rose Sofie Greve, Frederik Leed Henriksen \\ \hfill \\ \
 \tableofcontents
 \newpage
 \section{Abstract}
-We are making a website for a small Bed and Breakfast on Isla Margarita, Venezuela. The place is working towards becoming a sustainable and self-suffficient mini-hostel, where guests can enjoy organic greens from the garden.
-The indexpage on the website will contain a description of the place and the surrounding area.
+We are making a website for a small Bed and Breakfast on Isla Margarita, Venezuela. The place is working towards becoming a sustainable and self-sufficient mini-hostel, where guests can enjoy organic greens from the garden.
+The frontpage on the website will contain a description of the place and the surrounding area.
 The website will contain a simple booking- and online payment system.
 The website will have a link with pictures of the houses and surrounding facilities, and a link with information on the different activities taking place at the hostel.
 With courtesy to the place working with ecology and sustainability, the layout of the website will be simple and inspired by the colors of nature.
-Further, we will make an administrating part of the system, from where our costumer can see and edit the bookings. The administrator will also be able to edit the website photos and text descriptions. 
+Further, we will make an administration part of the system, from where our costumer can see and edit the bookings. The administrator will also be able to edit the website photos and text descriptions. \\\\
+\textbf{Changelog}\\\\
+Jeppe Schönemann Skov - JSS\\
+Frederik Leed Henriksen - FLH\\
+Rose Sofie Greve - RSG\\
+
+\begin{table}[h]
+\begin{tabular}{lllll}
+\cline{1-4}
+\multicolumn{1}{|l|}{Initialer} & \multicolumn{1}{l|}{Dato} & \multicolumn{1}{l|}{Afsnit} & \multicolumn{1}{l|}{Ændring} &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{JSS, FLH, RSG}     & \multicolumn{1}{l|}{23.04.15}     & \multicolumn{1}{l|}{Alle}       & \multicolumn{1}{l|}{Release edition 1.0}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{1, 2}       & \multicolumn{1}{l|}{Stavefejl, mere præcis beskrivelse}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.a}       & \multicolumn{1}{l|}{Krav i stikord, mere uddybende}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{FLH}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.b, 3.c, 3.e}       & \multicolumn{1}{l|}{Omskrivning og ændring i model}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.d}       & \multicolumn{1}{l|}{Opdateret klassediagramet}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG, JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.f}       & \multicolumn{1}{l|}{Kommentarer til firgurer}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG, JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{6, 7}       & \multicolumn{1}{l|}{Ændring i tekst}        &  \\ \cline{1-4}
+                           &                           &                             &                              & 
+\end{tabular}
+\end{table}
+
+
 \newpage
 \section{IT-projektets formål og rammer}
-F. Skal indeholde et bookingsystem og information om hostel \\
+Her følger en beskrivelse af rammerne for vores IT-projekt, baseret på FACTOR-begrebet.
+\\\\
+Functionality: Skal indeholde et booking- og betalingssystem, hvor administratoren har mulighed for at redigere i bookingerne. Samt sider billeder og information om hostelet. \\
 
-A. Skal administrere bookninger, herunder til- og afmelde folk samt finde kontaktoplysninger på de folk der har oprettet en booking.\\
+Application domain: Skal administrere bookninger, herunder til- og afmelde folk samt finde kontaktoplysninger på de folk der har oprettet en booking.\\
  
-C. Udvikling og endeligt brug af systemet skal være minded på, at dem der skal betjene det, ikke har stor teknisk erfaring. Vi skal derfor udvikle minded på, at de tekniske detaljer ikke er deres fokus.\\
+Conditions: Udvikling og endeligt brug af systemet skal være minded på, at dem der skal betjene det, ikke har stor teknisk erfaring. Vi skal derfor udvikle minded på, at de tekniske detaljer ikke er deres fokus.\\
 
-T. Systemet skal både udvikles og kunne betjenes på en billig pc med internet. Ingen yderligere krav er på nuværende tidspunkt planlagt. \\
+Technology: Systemet skal både udvikles og kunne betjenes på en billig pc med internet. Grundet hyppige strømsvigt skal databasen ligge på en webserver. \\
 
-O. Mennesker der søger at booke værelse. Organisering af hvilke værelser der er ledige og hvor længe.\\
+Objects: Personer der ønsker at booke værelse. Administrering af bookinger og websiden.\\
 
-R. Systemet skal løse administrative problematikker i henhold til at holde styr på kontaktoplysninger af kunder. Holde styr på hvilke værelser der er ledige, og hvornår disse er ledige. Systemet skal også reklamere for hostel'et.\\
+Responsibility: Systemet skal løse administrative problematikker i henhold til at holde styr på kontaktoplysninger af kunder. Holde styr på hvilke værelser der er ledige, og hvornår disse er ledige. Systemet skal også reklamere for hostel'et.\\
 \newpage
 \section{Kravspecifikationer for IT-løsningen}
 \subsection{a}
 \textbf{Funktionelle krav:} \\
-	Systemet skal understøtte et bookingsystem, der indeholder kontaktoplysninger om kunder, 	samt muliggører bookings af kunder, og at administratoren kan booke/af-booke kunder. Desuden skal der være et betalingssystem, så man kan betale online \footnote{Vi har ikke på nuværende tidspunkt tilstrækkelig indsigt i, hvorledes et betalingssystem skal kunne fungere, eller hvordan man man kan implementere dette, til at vi har ladet det være en del af resten af de tekniske kravspecifikationer, indtil vi har en dybere forståelse af dette. Det er altså et projekt, vi tager fat på senere i udviklingen (men det er ikke glemt!)  } \\ \hfill \\
+- Side med bookingsystem der giver brugeren mulighed for at booke senge\\
+- Administrativ side der giver vores kunde mulighed for at redigere i bookinger, tekst og billeder på brugersiden\\
+- Betaingssystem\\\\
        \textbf{Ikke-funktionelle krav:} \\
-	Systemet skal være brugervenligt i henhold til folk uden megen teknisk erfaring. 	Hjemmesiden skal indeholde billeder/information om hostelet. Siden skal være i farver og 	stil der afspejler hostelets stil og holdning til miljøet. \\ \hfill \\
+- Simpelt system, som kan benyttes af folk uden særlig teknisk erfaring\\
+- Side med information om stedet\\
+- Side med billedegalleri\\
+- Side med kontaktinformation\\
+- Layout der afspejler hostelets stil og holdning til miljøet. \\\\
       \textbf{Begrænsninger:} \\
-	Siden skal kunne vises på en billig computer og uden hurtigt internet til rådighed.
+	Siden skal kunne vises på en billig computer og uden hurtigt internet til rådighed. Databasen med bookinger skal ligge på en webserver, da strømsvigt er hyppige i området.
 \subsection{b}
-figur 1 illustrerer, hvorledes administratoren skal logge ind. Men derved også har ret til at slette bookninger og hente information, om dem der bookede et værelse. Kunden skal ikke logge ind, men har så også kun ret til at booke.\\ 
 \begin{figure}[H]
-\includegraphics[scale=0.7]{useCaseModel.jpg}
+\centering
+\includegraphics[scale=0.7]{usecasemodelV2.jpg}
 \caption{Use Case model}
 \end{figure}
+Figur 1 illustrerer brugersiderne gallery, activities, home, contact og booking. Brugeren har gennem siden booking mulighed for at booke senge på hostelet. Bookingen bliver gemt i booking databasen. Den administrasive side kræver login. Der findes en database, der holder styr på logindetaljerne. Fra den administrative side kan kunden se og redigere i bookingerne samt teksten og billederne på de forskellige sider.\\
 \subsection{c}
 
 \begin{minipage}{\textwidth}
@@ -150,11 +219,12 @@ figur 1 illustrerer, hvorledes administratoren skal logge ind. Men derved også 
 \end{minipage}	
 	
 \subsection{d}
-(figur 2) Siden vi endnu mangler meget erfaring inden for web-programmering, er vi ikke sikre på, at følgende fremgangsmåde vil virke. Vores foreløbige ide til at lave et bookingsystem er som følger i billedet, at vi laver en klasse, som styrer de forskellige rum i hostelet(Main). Så laver vi en klasse, der holder styr på hvor mange senge, hvert værelse har samt en ”kalender” pr. værelse(Room). Så har vi en klasse, der holder styr på reservationerne(booking). Derudover er der en klasse, der holder styr på tidsenheder(), og en der holder styr på personinformation(Customer). Dette er indskrevet med java i tankerne, men vi er som sagt ikke klar over, hvordan man eksekvere kode i sin html-kode endnu, så dette er et work-in-progress.\\
 \begin{figure}[H]
-\includegraphics[scale=0.4]{unfinished.jpg}
+\centering
+\includegraphics[scale=0.6]{BookingSystem.jpg}
 \caption{Booking system - UML}
 \end{figure}
+Figur 2 illustrerer et klassediagram over vores bookingsystem. Application() tilføjer, redigerer og sletter bookinger fra bookingdatabasen. Booking definerer hvilke parametre en booking skal indeholde.
 \subsection{e}
 
 \begin{minipage}{\textwidth}
@@ -209,21 +279,23 @@ figur 1 illustrerer, hvorledes administratoren skal logge ind. Men derved også 
 \subsection{f}
 
 \begin{figure}[H]
-\includegraphics[scale=0.4]{adminInteraction.jpg}
+\centering
+\includegraphics[scale=0.6]{adminInteraction.jpg}
 \caption{Admin Interaction}
 \end{figure}
-
-
+Figur 4 illustrerer interaktionen mellem den administrative side og bookingdatabasen.\\
 \begin{figure}[H]
-\includegraphics[scale=0.4]{adminLog-in.jpg}
+\centering
+\includegraphics[scale=0.6]{adminLog-in.jpg}
 \caption{Admin log-in}
 \end{figure}
-
-
+Figur 5 illusterer valideringprocessen ved login på den administrative side.\\
 \begin{figure}[H]
-\includegraphics[scale=0.4]{customerLog-in.jpg}
-\caption{Customer log-in}
+\centering
+\includegraphics[scale=0.6]{customerLog-in.jpg}
+\caption{Customer Interaction}
 \end{figure}
+Firgur 6 illustrerer processen når en bruger forsøger at oprette en booking.
 \newpage
 \section{Systemdesign sammenfatning}
 \textbf{Systemet som det er nu:}
@@ -232,17 +304,16 @@ Vi har foreløbigt lavet skabelonen til hjemmesiden, som den endeligt skal se ud
 \textbf{De væsentligste mangler:}
 En administrator side hvor man kan ændre billederne på siden. 
 Derudover skal der også være et bookingsystem, som kunder kan oprette bookninger, og som administratoren via administrator siden kan oprette/slette bookninger og hente information om kunden. Desuden mangler der et betalingssystem på siden.
-\newpage
+
 \section{Program- og systemtest}
 Da vi endnu ikke har fået vores system op at køre, mener vi ikke at det, vi har indtil nu, ville være værd at tage med. I forhold til vores hjemmeside kan vi kun teste den visuelt ved at se, om linksne fører til de korrekte sider, og det gør de.
-\newpage
-\section{Brugergrænseflade og interaktonsdesign}
-Fra menu bjælken kan brugeren navigerer sig rundt på hele hjemmesiden. Menu bjælken vil være tilstede lige meget hvor brugeren befinder sig henne på siden.
 
-Siderne er uafhængig, så de har ingen relation til hinanden.
-\newpage
-\section{projektsamarbejdet}
-Internt i gruppen arbejder vi godt sammen. Vi syntes dog at vi begynder at få travlt, hvis vi gerne vil ende ud med et mere eller mindre færdigt produkt, og har derfor aftalt at mødes hver mandag og bruge min. seks timer sammen på projektet. Inden vi går hjem mandag uddeler vi arbejdsopgaver, og aftaler hvad vi skal have nået, inden vi mødes igen ugen efter. 
+\section{Brugergrænseflade og interaktonsdesign}
+Fra menu bjælken kan brugeren navigerer sig rundt på hele hjemmesiden. Menubjælken vil være tilstede lige meget hvor brugeren befinder sig henne på siden.
+Hjemmesiden benytter sig af konceptet REST, hvilket vil sige at siderne er uafhængige, og ingen relationer har til hinanden.
+
+\section{Projektsamarbejdet}
+Internt i gruppen arbejder vi godt sammen. Vi syntes dog at vi begynder at få travlt, hvis vi gerne vil ende ud med et mere eller mindre færdigt produkt, og har derfor aftalt at mødes hver mandag og torsdag og arbejde sammen på projektet. Inden vi går hjem uddeler vi arbejdsopgaver, og aftaler hvad vi skal have nået hver især, inden vi mødes næste gang. 
 
 Vi har indtil videre haft tre møder med kunden. Møderne foregår over Skype, da kunden bor i Venezuela. På trods af at afstanden kan være upraktisk, er kunden fleksibel med dato for møder, da vi blot mødes over Skype.
 
