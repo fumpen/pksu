@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[danish]{babel}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{moreverb}
+
+% Ved at bruge kommandoen \newcommand kan man forkorte kommandoer eller ændre dem til noget mere passende.
+\newcommand{\setR}{\mathbb{R}}
+\newcommand{\setZ}{\mathbb{Z}}
+\newcommand{\setN}{\mathbb{N}}
+\newcommand{\setF}{\mathbb{F}}
+\newcommand{\lra}{\Leftrightarrow}
+\newcommand{\ra}{\Rightarrow}
+\newcommand{\ac}{\textasciicircum}
+\newcommand{\uuline}[1]{\underline{\underline{#1}}}
+\newcommand{\bpm}{\begin{pmatrix}}
+\newcommand{\epm}{\end{pmatrix}}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\title{Review af The M.A.D experience, Christensen et al. (1998)}
+\author{Rose G}
+\begin{document}
+
+\maketitle
+
+
+The M.A.D experience er en artikel omhandlende en research gruppe fra Århus universitet, der  ingår et samarbejde med et stort glabalt shippingfirma om at lave en prototype til et kundeservicesystem. 
+Arktiklen handler, om hvordan gruppen får designet og implementeret en rigtig god prototype, der endda overgår shipping firmaets forventninger. Dette uden at gruppen havde nogen som helst form for ekpertise inden for shippingområdet.
+Artiklen diskuterer, hvilke delelementer der spillede en rolle for denne succesfulde udføring af projektet.
+Gruppemedlemmerne havde tre forskellige roller: en etnograf, en participatorisk designer og seks objektorienterede designere. 
+
+Etnografen står for at udforme et design, der sørger for, at systemet relaterer til det miljø, projektet omhandler. Han identificerer problemløsningsområdet men ikke selve designløsningerne.
+
+Den participatoriske designer arbejder med vigigheden i at involvere potentielle brugere af systemet i den kreative designprocess. Dette gøres både ud fra et moralsk og et praktisk grundlag, da det er rimeligt at lade de, som i sidste ende skal bruge systemet, være med til at tage beslutninger, og at disse personer samtidig er de mest praktiske forsøgspersoner at have med ind over projektet. 
+Den participatoriske designer går op i at afholde workshops for forskellige mennesker, der har en eller anden tilknytning til projektet, for derefter at indrette systemdesignet udfra den konstruktive kritik de modtager under disse workshops.
+
+De objektorienterede designere integrerer analyserne og designet fra etnografen og den participatoriske designer i det endelige design og implementering at systemet.
+
+Udover disse tre elementer kommenterer artiklen på, at det er vigtigt, at man kommer igang med programmeringen så tidligt som muligt, bl.a. så man har noget at vise frem og få feedback på fra kunden og brugerne. Men også fordi at det i deres projekt, som også diskuteret i A Rational Design Process \footnote{Parnas and Clements 1986: A Rational Design Process: How and Why to Fake It }, ikke stod klart fra start af, præcis hvordan systemet skulle udformes. 
+De fandt, at man altid ville ende op med et andet design end den initielle design struktur, blandt andet på grund af den feedback de fik fra kunden og brugerne. 
+
+Det konkluderes, at et succesfuldt projekt kan opnås ved at have fokus på analyse af det miljø og det praktiske, som systemet omhandler, og skal henvende sig til. Disse elementer skal optræde som en integreret del af implementeringen af projektet. 
+\end{document}
