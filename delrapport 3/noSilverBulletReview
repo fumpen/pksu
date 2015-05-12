@@ -1,0 +1,16 @@
+\subsection{No silver bullet}
+No Silver Bullet – Essence And Accidents in Software Engineering handler om software udvikling og dets vanskeligheder (essentiel og utilsigtet) og løsningerne på problemerne. 
+
+Han undersøger arten af programfejl, og egenskaberne af de løsninger som han selv kalder silver bullets. 
+
+Brooks mener, at den sværeste del af software udvikling er de arkitektoniske opgaver som specifikation, design og test af konstruktionen.
+
+Vanskelighederne er delt op i essentielle og utilsigtet typer. De essentielle problemer er medfødte  til software. En kompleks og præcis abstrakt konstruktion afledt af datasæt, dataelementer, algoritmer og funktioner. De utilsigtet problemer er de problemer der opstår, når en udvikler er i gang med at udvikle softwaren men er ikke medfødte i selve softwaren.
+
+Brooks opstiller de essentielle vanskeligheder som kompleksitet, overenstemmelse, foranderlig og usynlighed. De uvæsentlig problemer er ikke opstillet så klart.
+
+Tre løsninger på utilsigtet  problemer bliver diskuteret. Det er høj niveau programmerings sprog, multiprogrammering og forenet udviklings miljøer. Det største gennembrud for produktiviteten, pålideligheden og enkelhed af de tre løsnings forslag er høj niveau sprog. Høj niveau sprog giver stærke fælles konstruktioner til programmøren og reducere et niveau af software kompleksitet.
+
+I vores projekt hvor vi skal udvikle en hjemmeside med et booking system til nogle sommerhuse i Venezuela. Har vi også benyttet os af et høj niveau sprog som gør udvikling for vores projekt en del lettere og er med til at optimerer vores program. OOSE bogen anbefaler også brug af høj niveau sprog til udvikling, da der er mange tilgængelig pakker der kan hjælpe til udviklingen.
+
+For at samle vores projekt et sted der gør det let tilgængeligt for os alle og gør det muligt for os at udvikle på dele af programmet er github.
