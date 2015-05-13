@@ -116,6 +116,8 @@ Rose Sofie Greve - RSG\\
 \multicolumn{1}{|l|}{JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.d}       & \multicolumn{1}{l|}{Opdateret klassediagramet}        &  \\ \cline{1-4}
 \multicolumn{1}{|l|}{RSG, JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.f}       & \multicolumn{1}{l|}{Kommentarer til firgurer}        &  \\ \cline{1-4}
 \multicolumn{1}{|l|}{RSG, JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{6, 7}       & \multicolumn{1}{l|}{Ændring i tekst}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{11.05.15}     & \multicolumn{1}{l|}{4, 5, 7}       & \multicolumn{1}{l|}{Ændring i tekst}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{FLH}     & \multicolumn{1}{l|}{11.05.15}     & \multicolumn{1}{l|}{6}       & \multicolumn{1}{l|}{Flowchart, skærmbilleder, video}        &  \\ \cline{1-4}
                            &                           &                             &                              & 
 \end{tabular}
 \end{table}
@@ -299,15 +301,14 @@ Firgur 6 illustrerer processen når en bruger forsøger at oprette en booking.
 \newpage
 \section{Systemdesign sammenfatning}
 \textbf{Systemet som det er nu:}
-Vi har foreløbigt lavet skabelonen til hjemmesiden, som den endeligt skal se ud. Dette er gjort i html og css kode. Derudover har vi implementeret links, så man kan navigere mellem siderne. 
+Vi har benyttet Play! frameworket til at lave en meget fin prototype at systemet.
+Det er nu muligt at navigere mellem alle de forskellige sider, på hjemmesiden. Vi har fået implementeret en billede-slider på siden \textit{Gallery}, som præsenterer billeder af stedet i et diasshow. På siden \textit{Contact} har vi implementeret et google-maps kort, der viser hostelets beliggenhed. Bookingsystemet er også blevet konstrueret, og det er nu muligt at tilføje en booking fra bruger-siden, samt tilføje og slette bookinger fra admin-siden. Bookingerne gemmes i en database.    
 
 \textbf{De væsentligste mangler:}
-En administrator side hvor man kan ændre billederne på siden. 
-Derudover skal der også være et bookingsystem, som kunder kan oprette bookninger, og som administratoren via administrator siden kan oprette/slette bookninger og hente information om kunden. Desuden mangler der et betalingssystem på siden.
-
+Vi mangler en funktion der gør det muligt for administratoren at ændre en booking. Desuden mangler vi stadig at lave et login-system til admin-siden.\\
+Vi skal også gøre det muligt for kunden, selv at bestemme hvilke billeder der fremvises samt redigere i teksten på de forskellige sider. Endeligt mangler vi at koble bookingsystemet til et betalingssystem.
 \section{Program- og systemtest}
-Da vi endnu ikke har fået vores system op at køre, mener vi ikke at det, vi har indtil nu, ville være værd at tage med. I forhold til vores hjemmeside kan vi kun teste den visuelt ved at se, om linksne fører til de korrekte sider, og det gør de.
-
+Indtil videre har vi kun testet vores system visuelt, og alt virker som vi ønsker. Vi har endnu ikke sat begrænsninger på bookingsystemet, sådan at to bookinger ikke overlapper hinanden. Planen er at lave en test-klasse, der kan teste bookingsystemet med Junit.
 \section{Brugergrænseflade og interaktonsdesign}
 
 \subsection{eksempler på brugergrænseflade}
@@ -361,64 +362,52 @@ her ses rutediagrammet som siden fungere på nuværende tidspunkt
 \end{figure}
 
 \subsection{audio-visual præsentation}
-
-
+Den forløbige viden : https://youtu.be/CF55ggqy9M8
 \section{Projektsamarbejdet}
-Internt i gruppen arbejder vi godt sammen. Vi syntes dog at vi begynder at få travlt, hvis vi gerne vil ende ud med et mere eller mindre færdigt produkt, og har derfor aftalt at mødes hver mandag og torsdag og arbejde sammen på projektet. Inden vi går hjem uddeler vi arbejdsopgaver, og aftaler hvad vi skal have nået hver især, inden vi mødes næste gang. 
+Internt i gruppen arbejder vi godt sammen. For nogle uger siden besluttede vi os for at sætte mandag og torsdag af til at arbejde på projektet. Siden da er vi nået rigtig langt med systemet. 
 
 Vi har indtil videre haft tre møder med kunden. Møderne foregår over Skype, da kunden bor i Venezuela. På trods af at afstanden kan være upraktisk, er kunden fleksibel med dato for møder, da vi blot mødes over Skype.
 
 Under møderne tager vi referat i form af stikord, og dokumenterer de aftalte ændringer i projektaftalen og projektplanen, i rapporten. 
 
-Under første møde d. 19. februar 2015 fik vi lavet en projektaftale med kunden.
-Under andet møde d. 10. marts 2015 snakkede vi detaljer ift. bookingsystemet.
-Udner tredje møde d. 15. april 2015 snakkede vi om valg af betalingssystem, samt om hvilke dele af projektet kunden helst så os nedprioritere i tilfælde af tidspres.
+Under første møde d. 19. februar 2015 fik vi lavet en projektaftale med kunden.\\
+Under andet møde d. 10. marts 2015 snakkede vi detaljer ift. bookingsystemet.\\
+Under tredje møde d. 15. april 2015 snakkede vi om valg af betalingssystem, samt om hvilke dele af projektet kunden helst så os nedprioritere i tilfælde af tidspres.
 
 Vi har endnu ikke en fast dato for næste møde, da kunden som sagt er fleksibel, og vi derfor kan kontakte hende, når vi har brug for at diskutere projektet.
-
-Vi har indset, at vi generelt set skal prioritere projektet højere, og vil derfor lave en tidsplan med deadlines til os selv. Første step bliver at lave en så deltaljeret som muligt projektplan.
-Vi er motiverede af og glæder os til at gå igang med at kode, og lære hvordan et sådant system er bygget op. 
 \newpage
 \section{Litteraturreview}
-\subsection{Designing for usability}
-Denne artikel beskriver tre design principper, som Gould og Lewis mener er vigtige, men selv om de måske virker indlysende, bliver de ofte forsømt af udviklerne af flere årsager. Udviklerne undervurderer eller misforstår simpelthen nogle gange disse ”simple” principper. De tre principper: 
+\subsection{Review af The M.A.D experience, Christensen et al. (1998)}
+The M.A.D experience er en artikel omhandlende en research gruppe fra Århus universitet, der  ingår et samarbejde med et stort glabalt shippingfirma om at lave en prototype til et kundeservicesystem. 
+Arktiklen handler, om hvordan gruppen får designet og implementeret en rigtig god prototype, der endda overgår shipping firmaets forventninger. Dette uden at gruppen havde nogen som helst form for ekpertise inden for shippingområdet.
+Artiklen diskuterer, hvilke delelementer der spillede en rolle for denne succesfulde udføring af projektet.
+Gruppemedlemmerne havde tre forskellige roller: en etnograf, en participatorisk designer og seks objektorienterede designere. 
 
-Fokus på målgruppe og opgaver. 
-Hvor designeren må vide hvem målgruppen er og være i direkte kontakt med udviklerne, for at de kan analysere og studere målgruppens adfærd i stedet for at bare læse eller høre om dem. 
+Etnografen står for at udforme et design, der sørger for, at systemet relaterer til det miljø, projektet omhandler. Han identificerer problemløsningsområdet men ikke selve designløsningerne.
 
-Simulation og prototype.
-Målgruppen skal afprøve prototypen, hvor deres reaktion og ydeevne på systemet analyseres og observeres.
+Den participatoriske designer arbejder med vigigheden i at involvere potentielle brugere af systemet i den kreative designprocess. Dette gøres både ud fra et moralsk og et praktisk grundlag, da det er rimeligt at lade de, som i sidste ende skal bruge systemet, være med til at tage beslutninger, og at disse personer samtidig er de mest praktiske forsøgspersoner at have med ind over projektet. 
+Den participatoriske designer går op i at afholde workshops for forskellige mennesker, der har en eller anden tilknytning til projektet, for derefter at indrette systemdesignet udfra den konstruktive kritik de modtager under disse workshops.
 
-Test og omstrukturer.
-Det sidste princip dækker over test af systemet og de fejl, som bliver fundet, skal rettes, og hvis det bliver nødvendigt, skal programmet omstruktureres og testes forfra.
+De objektorienterede designere integrerer analyserne og designet fra etnografen og den participatoriske designer i det endelige design og implementering at systemet.
 
-Derefter uddyber de principperne, og forklarer, hvordan de kan anvendes i starten af design fasen efterfulgt af en test fase. De slutter deres diskussion ved at præsentere et case studie, hvor de anvender disse principper i et lyd besked system fra IBM.   
+Udover disse tre elementer kommenterer artiklen på, at det er vigtigt, at man kommer igang med programmeringen så tidligt som muligt, bl.a. så man har noget at vise frem og få feedback på fra kunden og brugerne. Men også fordi at det i deres projekt, som også diskuteret i A Rational Design Process \footnote{Parnas and Clements 1986: A Rational Design Process: How and Why to Fake It }, ikke stod klart fra start af, præcis hvordan systemet skulle udformes. 
+De fandt, at man altid ville ende op med et andet design end den initielle design struktur, blandt andet på grund af den feedback de fik fra kunden og brugerne. 
 
-Det er svært at argumentere mod vigtigheden af disse principper, som måske virker meget basale, men det kan være meget let undervurdere vigtigheden af disse principper. Object-Oriented Software Engineering Using UML, Patterns, and Java bogen beskriver seks faser, når man udvikler et system.
+Det konkluderes, at et succesfuldt projekt kan opnås ved at have fokus på analyse af det miljø og det praktiske, som systemet omhandler, og skal henvende sig til. Disse elementer skal optræde som en integreret del af implementeringen af projektet.
+\subsection{No silver bullet}
+No Silver Bullet – Essence And Accidents in Software Engineering handler om software udvikling og dets vanskeligheder (essentiel og utilsigtet) og løsningerne på problemerne. 
 
-Krav
-Analyse
-System Design
-Objekt Design
-Implementation
-Test
+Han undersøger arten af programfejl, og egenskaberne af de løsninger som han selv kalder silver bullets. 
 
-Hvor den ligger meget vægt på samarbejde med kunden i form af modeller og grafiske illustration i stedet for at arbejde sammen med målgruppen, som jeg syntes artiklen ligger op til.
+Brooks mener, at den sværeste del af software udvikling er de arkitektoniske opgaver som specifikation, design og test af konstruktionen.
 
-I vores projekt hvor vi har til opgave at designe og lave et online sommerhus booking system, forsøger vi at holde en løbende dialog med vores kunde. Vi fik først og fremmest nogle krav fra kunden, som vi skal overholde, men da de fleste var kommet på plads, og vi havde en nogenlunde idé om, hvad vi egentlig skulle lave i vores projekt. Dernæst har vi planer om at lave vores prototype af hjemmeside færdig, og derefter have et interview med vores kunde, for at se om de er tilfredse, eller om de har nogle ændringer. Efter det har vi planer om at nå ud til målgruppen med prototypen og høre deres mening om systemet, og om det er brugervenligt.
-\subsection{A rational design process}
-A Rational Design Process forklarer om hvad den rationelle design process er, og hvorfor det er så svært at lave en rationel struktur på sit projekt.
+Vanskelighederne er delt op i essentielle og utilsigtet typer. De essentielle problemer er medfødte  til software. En kompleks og præcis abstrakt konstruktion afledt af datasæt, dataelementer, algoritmer og funktioner. De utilsigtet problemer er de problemer der opstår, når en udvikler er i gang med at udvikle softwaren men er ikke medfødte i selve softwaren.
 
-Kort sagt går et rationelt design ud på, at man stiller nogle helt præcise krav op for sit projekt. At man opdeler projektet i mindre og mindre detaljerede dele, indtil man har en fuldstændig plan for, hvordan man vil udføre sit projekt. Og at man dokumenterer alle beslutninger og ændringer, man foretager sig løbende.
+Brooks opstiller de essentielle vanskeligheder som kompleksitet, overenstemmelse, foranderlig og usynlighed. De uvæsentlig problemer er ikke opstillet så klart.
 
-Det er dog sjældent, at programmørens valg i den initielle designfase er særligt rationelle. Dette er der flere årsager til. Som vi selv har kunne mærke i vores projekt, vil der i starten ofte være uklarhed omkring, præcis hvad systemet skal kunne. Mange detaljer dukker altid op løbende under design- og programmeringsprocessen, og det er derfor ikke muligt fra start af at lave en nøjagtig plan. Selv hvis det var muligt at kende til alle projektets detaljer på en gang, vil det simpelthen være for stor en mundfuld information, til at det er muligt for den menneskelige hjerne at lave et endeligt softwaredesign. Der sker ofte ændringer i, hvad systemet skal indebære. Disse ændringer har ofte betydning for designet, og man ville altså alligevel ende med et andet design end det første “rationelle design” man havde konstrueret. Endeligt sker det tit, at man skal viderearbejde allerede eksisterende software, som allerede har et design. Et rationelt design kan også udelukke muligheden for nye og anderledes ideer til design, inspireret af andre projekter, hvis design ikke nødvendigvis er særligt rationelt, men som på en anden måde virker optimalt for ens projekt.
+Tre løsninger på utilsigtet  problemer bliver diskuteret. Det er høj niveau programmerings sprog, multiprogrammering og forenet udviklings miljøer. Det største gennembrud for produktiviteten, pålideligheden og enkelhed af de tre løsnings forslag er høj niveau sprog. Høj niveau sprog giver stærke fælles konstruktioner til programmøren og reducere et niveau af software kompleksitet.
 
-På trods af alle disse stopklodser for en rationel design process er der også mange positive sider ved at forsøge at lave et rationelt design. Der researches derfor en del i en struktureret ”opskrift” på software design.
-Ligger man tid og kræfter i at få lavet et godt solidt design, før man går i gang med at kode, bliver man tvunget til at reflektere over hele projektet, og tage stilling til hvilke udfordringer man måske støder på. Dette vil spare én tid i den anden ende.
+I vores projekt hvor vi skal udvikle en hjemmeside med et booking system til nogle sommerhuse i Venezuela. Har vi også benyttet os af et høj niveau sprog som gør udvikling for vores projekt en del lettere og er med til at optimerer vores program. OOSE bogen anbefaler også brug af høj niveau sprog til udvikling, da der er mange tilgængelig pakker der kan hjælpe til udviklingen.
 
-Vi er opsatte på at forsøge os med at lave en detaljeret projektplan, da vi efterhånden begynder at forstå nødvendigheden af at have et godt overblik over det system, vi arbejder på. Vi vil også få lavet noget ordentlig dokumentation, for de valg vi tager, så vi på senere tidspunkter kan finde svar på, hvorfor vi valgte at gøre som vi gjorde. 
-Dog er der mange ting, vi har svært ved at forestille os på dette tidlige stadie, især fordi at ingen af os har nogen programmeringserfaring. Det gør det f.eks. svært for os at vide, hvordan vi egentlig skal inddele projektet i moduler/subsystems, samt hvor lang tid hver del af projektet vil tage.
-
-Vi anser opskriften på hvordan man laver et rationelt design som en slags guide og inspiration til, hvordan man kan gribe et projekt an. I forsøget på at følge opskriften på det rationelle design vil man eksempelvis lægge et større arbejde i at finde de små detaljer og risici ved projektet så tidligt som muligt og dermed undgå for meget back-tracking.
-Ved efterfølgende at skrive sin dokumentation og projektplan som hvis man havde fulgt det perfekte design, altså ”fake” den ideelle process, bliver man stadig tvunget til at være mere reflekteret og forberedt, og gør dermed projektet og ens egen arbejde mere struktureret. 
+For at samle vores projekt et sted der gør det let tilgængeligt for os alle og gør det muligt for os at udvikle på dele af programmet er github.
 \end{document}
