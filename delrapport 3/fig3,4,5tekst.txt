@@ -1,0 +1,27 @@
+
+Figur 3:
+Brugeren forespørger om en ændring på admin siden. 
+Fra admin siden sendes en forespøgsel til en funktion der validere denne. 
+funktionen sender en forespørgsel til databasen som svare.
+hvis valideringsfunktionen evaluere tl "sand", 
+bliver ændringen i databasen gennemført.
+Hvis ikke bliver det skridt sprunget over.
+man får en statusopdatering der beskriver om ændringen bliver uflført eller ej.
+
+
+Figur 4:
+Brugeren intaster dennes informatoner på login skærmen.
+denne sender forespørgslen til en sikkerhedsvalideringsfunktion.
+denne forespørger om en match i admindatabasen.
+denne sender svar tilbage.
+sikkerhedsvalideringsfunktionen validere forespørgslen.
+svaret bliver sendt til login skærmen.
+
+
+Figur 5:
+brugeren intaster information på bookingsiden.
+informationen bliver sendt til en valideringsfunktion.
+denne ofrespørger om der er konflikter i databasen.
+databasen svare
+valideringsfunktionen validere forespørgslen.
+status på forespørgsel vises på bookingsiden.
