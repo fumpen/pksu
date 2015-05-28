@@ -11,17 +11,17 @@ man får en statusopdatering der beskriver om ændringen bliver uflført eller ej.
 
 Figur 4:
 Brugeren intaster dennes informatoner på login skærmen.
-denne sender forespørgslen til en sikkerhedsvalideringsfunktion.
-denne forespørger om en match i admindatabasen.
-denne sender svar tilbage.
-sikkerhedsvalideringsfunktionen validere forespørgslen.
-svaret bliver sendt til login skærmen.
+Denne sender forespørgslen til en sikkerhedsvalideringsfunktion.
+Denne forespørger om en match i admindatabasen.
+Denne sender svar tilbage.
+Sikkerhedsvalideringsfunktionen validere forespørgslen.
+Svaret bliver sendt til login skærmen.
 
 
 Figur 5:
-brugeren intaster information på bookingsiden.
-informationen bliver sendt til en valideringsfunktion.
-denne ofrespørger om der er konflikter i databasen.
-databasen svare
+Brugeren intaster information på bookingsiden.
+Informationen bliver sendt til en valideringsfunktion.
+Denne ofrespørger om der er konflikter i databasen.
+Databasen svarer
 valideringsfunktionen validere forespørgslen.
-status på forespørgsel vises på bookingsiden.
+Status på forespørgsel vises på bookingsiden.

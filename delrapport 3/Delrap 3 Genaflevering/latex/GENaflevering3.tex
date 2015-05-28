@@ -1,0 +1,465 @@
+\documentclass[12pt,a4paper]{article}
+
+
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{240mm}
+\setlength{\parindent}{0mm} % S{\aa} meget rykkes ind efter afsnit
+\setlength{\parskip}{\parsep}
+\setlength{\headheight}{0mm}
+\setlength{\headsep}{0mm}
+\setlength{\hoffset}{-2.5mm}
+\setlength{\voffset}{0mm}
+\setlength{\footskip}{15mm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\topmargin}{0mm}
+\setlength{\evensidemargin}{0mm}
+
+%til tables!
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% jubiii
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{algorithm,algpseudocode}
+\usepackage[T1]{fontenc}
+\usepackage[all]{xy}
+\usepackage{graphicx}    % For grafik (billederfiler)
+\usepackage[T1]{fontenc} % For at blande \textsc{} med \textbf{}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{eucal}
+\usepackage[danish]{babel}
+\usepackage{enumerate}  
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{array}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage[dvipsnames,usenames]{color}
+\usepackage{tabularx,colortbl,xcolor}
+
+\setlength{\textwidth}{165mm}
+\setlength{\textheight}{240mm}
+\setlength{\parindent}{0mm} % S{\aa} meget rykkes ind efter afsnit
+\setlength{\parskip}{\parsep}
+\setlength{\headheight}{0mm}
+\setlength{\headsep}{0mm}
+\setlength{\hoffset}{-2.5mm}
+\setlength{\voffset}{0mm}
+\setlength{\footskip}{15mm}
+\setlength{\oddsidemargin}{0mm}
+\setlength{\topmargin}{0mm}
+\setlength{\evensidemargin}{0mm}
+
+%til tables!
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% jubiii
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage[all]{xy}
+\usepackage{graphicx}    % For grafik (billederfiler)
+\usepackage[T1]{fontenc} % For at blande \textsc{} med \textbf{}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{eucal}
+\usepackage[danish]{babel}
+\usepackage{enumerate}  
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{array}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage[dvipsnames,usenames]{color}
+\usepackage{tabularx,colortbl,xcolor}
+\hypersetup{%
+    pdfborder = {0 0 0}
+}
+
+\DeclareSymbolFont{usualmathcal}{OMS}{cmsy}{m}{n}
+\DeclareSymbolFontAlphabet{\mathcal}{usualmathcal}
+
+% til tables
+\newcolumntype{C}[1]{>{\Centering}m{#1}}
+\renewcommand\tabularxcolumn[1]{C{#1}}
+% jubiii
+
+
+\begin{document}
+\title{Organic Donkey Hostel - Hjemmeside med booking\\
+Projektkursus Systemudvikling 2015}
+\maketitle
+\begin{center}
+Projektgruppe-nummer 1, gruppemedlemmer:
+\end{center}
+\begin{center}
+Jeppe Schönemann Skov 240992\\
+Rose Sofie Greve 250493\\
+Frederik Leed Henriksen 110394\\
+\end{center}
+\begin{center}
+Instruktor: Christoffer Wadum\\ \hfill \\ \hfill \\ 
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+\section{Abstract}
+We are making a website for a small Bed and Breakfast on Isla Margarita, Venezuela. The place is working towards becoming a sustainable and self-sufficient mini-hostel, where guests can enjoy organic greens from the garden.
+The frontpage on the website will contain a description of the place and the surrounding area.
+The website will contain a simple booking- and online payment system.
+The website will have a link with pictures of the houses and surrounding facilities, and a link with information on the different activities taking place at the hostel.
+With courtesy to the place working with ecology and sustainability, the layout of the website will be simple and inspired by the colors of nature.
+Further, we will make an administration part of the system, from where our costumer can see and edit the bookings. The administrator will also be able to edit the website photos and text descriptions. \\\\
+\newpage
+\section{IT-projektets formål og rammer}
+Her følger en beskrivelse af rammerne for vores IT-projekt, baseret på FACTOR-begrebet.
+\\\\
+Functionality: Skal indeholde et booking- og betalingssystem, hvor administratoren har mulighed for at redigere i bookingerne. Samt sider billeder og information om hostelet. \\
+
+Application domain: Skal administrere bookninger, herunder til- og afmelde folk samt finde kontaktoplysninger på de folk der har oprettet en booking.\\
+ 
+Conditions: Udvikling og endeligt brug af systemet skal være minded på, at dem der skal betjene det, ikke har stor teknisk erfaring. Vi skal derfor udvikle minded på, at de tekniske detaljer ikke er deres fokus.\\
+
+Technology: Systemet skal både udvikles og kunne betjenes på en billig pc med internet. Grundet hyppige strømsvigt skal databasen ligge på en webserver. \\
+
+Objects: Personer der ønsker at booke værelse. Administrering af bookinger og websiden.\\
+
+Responsibility: Systemet skal løse administrative problematikker i henhold til at holde styr på kontaktoplysninger af kunder. Holde styr på hvilke værelser der er ledige, og hvornår disse er ledige. Systemet skal også reklamere for hostel'et.\\
+\newpage
+\section{Kravspecifikationer for IT-løsningen}
+\subsection{a - Funktionelle og ikke funktionelle krav}
+Dette afsnit angiver de funktionelle og ikke funktionelle krav, samt de begrænsninger vi har til vores system.\\\\
+\textbf{Funktionelle krav:} \\
+- Side med bookingsystem der giver brugeren mulighed for at booke senge\\
+- Administrativ side der giver vores kunde mulighed for at redigere i bookinger, tekst og billeder på brugersiden\\
+- Loginsystem til den administrative side\\
+- Betaingssystem. Et eksternt system som kunden viderestilles til. Ikke et betalingssystem vi selv koder.\\\\
+       \textbf{Ikke-funktionelle krav:} \\
+- Simpelt system, som kan benyttes af folk uden særlig teknisk erfaring\\
+- Side med information om stedet\\
+- Side med billedegalleri\\
+- Side med kontaktinformation\\
+- Layout der afspejler hostelets stil og holdning til miljøet. \\\\
+      \textbf{Begrænsninger:} \\
+	Siden skal kunne vises på en billig computer og uden hurtigt internet til rådighed. Databasen med bookinger skal ligge på en webserver, da strømsvigt er hyppige i området.
+\newpage
+\subsection{b - Use case model}
+Dette afsnit beskriver kort det mest essentielle ved systemets use cases, og illustrerer sammenhængen mellem disse og aktørerne i et højniveau-diagram. 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{hoejniveau.png}
+\caption{Et højniveau-diagram der illustrerer hvilke use cases de forskellige aktører har}
+\end{figure}
+\textbf{EditBooking}  Administratoren kan slette og redigere i værelsesbookingerne. Login er krævet for at kunne redigere i bookinger.\\
+\textbf{EditText/Pictures} Administratoren kan slette og redigere i teksten og billederne på hjemmesiden. Login er krævet for at kunne redigere i hjemmesiden.\\
+\textbf{Login} Administartoren skal logge ind på Admin siden, for at se og redigere bookinger samt tekst og billeder.\\
+\textbf{CreateBooking} Brugeren kan booke et værelse på hostelet gennem hjemmesiden.\\
+\newpage
+\subsection{c - Use cases}
+De følgende tre tabeller angiver mere detaljerede beskrivelser at vores tre vigtigeste use cases. Diagrammerne illusterer relationerne mellem aktørerne og systemet. \\\\
+\begin{minipage}{\textwidth}
+
+\captionof{table}{Højniveau use-case-diagram over use casen Login} \label{tab:title}
+\begin{tabular}{| p{5cm} p{10cm} |}
+\hline Use-case-name & Login \\
+\hline Participating actors & Administratoren \\
+\hline Flow of events & \begin{enumerate}
+\item Administratoren intaster sit brugernavn og kodeord på admin log-in siden og trykker på log-in knappen
+\item Admindatabasen bliver spurgt om de indsendte oplysninger er rigtige.
+\item Hvis der findes et match, bliver man videreført til admin-siden. Hvis ikke får man en fejlmeddelelse.
+\end{enumerate} \\
+\hline Entry conditions & At man ikke allerede er logget ind \\
+\hline Exit conditions & At man er logget ind \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{Højniveau use-case-diagram over use casen EditBooking} \label{tab:title}
+\begin{tabular}{| p{5cm} p{10cm} |}
+\hline Use-case-name & EditBooking \\
+\hline Participating actors & Administratoren \\
+\hline Flow of events & \begin{enumerate}
+\item Administratoren trykker på slet knappen i tabellen ud for bookingen 
+\item Ændringen bliver sendt til databasen og bookingen slettes
+\item Tabellen opdateres og bookingen er slettet og vises ikke mere
+\end{enumerate} \\
+\hline Entry conditions & At man er logget ind \\
+\hline Exit conditions & At den ønskede ændring i bookingen er sket \\
+\hline
+\end{tabular}
+
+\end{minipage}
+	
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{Højniveau use-case-diagram over use casen CreateBooking} \label{tab:title}
+\begin{tabular}{| p{5cm} p{10cm} |}
+\hline Use-case-name & CreateBooking \\
+\hline Participating actors & Brugeren \\
+\hline Flow of events & \begin{enumerate}
+\item Kunden indtaster sine ønskede booking datoer og kontaktinformationer 
+\item Kunden trykker på booking knappen og booking informationerne bliver tjekket for at verificere om bookingen ikke overlapper med andre bookinger
+\item Hvis der ikke er nogen overlab, bliver bookingen oprettet og kunden bliver videresendt til "home" siden. Hvis der er overlab får kunden en fejlmeddelelse
+\end{enumerate} \\
+\hline Entry conditions & At brugeren befinder sig på bookingsiden \\
+\hline Exit conditions & At brugerens booking gemmes i databasen  \\
+\hline
+\end{tabular}
+
+\end{minipage}	
+	
+\subsection{d - Klassediagram over problemområdet}
+Dette afsnit illustrerer vores problemområder i et klassediagram.\\
+Figur 2 illustrerer et klassediagram over problemområdet  bookingsystem. Application() tilføjer, redigerer og sletter bookinger fra bookingdatabasen. Booking definerer hvilke parametre en booking skal indeholde.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{BookingSystem.jpg}
+\caption{UML klassediagram over bookingsystemet}
+\end{figure}
+\subsection{e - BCE-model}
+Dette afsnit indeholder en BCE-model over vores system.\\\\
+\begin{minipage}{\textwidth}
+
+\captionof{table}{Boundary} \label{tab:title}
+\begin{tabular}{| p{5cm} | p{10cm} |}
+\hline Admin log-in side & Web-siden for administratoren som benyttes til at verificere at personen er administrator \\
+\hline Kunde booking web-side & Her har kunden adgang til at oprette en booking samt navigering til de andre kunde sider \\
+\hline Kunde "home" web-side & Her kan kunden navigere til de andre sider \\
+\hline Kunde galleri web-side & Her kan kunden navigere til de andre sider \\
+\hline Kunde kontakt web-side & Her kan kunden navigere til de andre sider \\
+\hline Kunde aktiviteter web-side & Her kan kunden navigere til de andre sider \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{Control} \label{tab:title}
+\begin{tabular}{| p{5cm} | p{10cm} |}
+\hline Admin log-in \newline verificeringsknappen & Facillitere forespørgslen mellem admin log-in siden og admin databasen, hvis personen er en admin, bliver vedkommende sendt videre til admin siden. hvis ikke, sker der ikke noget.\\
+\hline Opret booking knap & Søger databasen for overlap i dato. Hvis der ikke er sådanne konflikter skabes en booking med de givne informationer i databasen, hvis der er en konflikt vises en passende fejlmeddelelse \\
+\hline Fjern booking knap & Fjerner en oprettet booking fra databasen \\
+\hline Rediger web-sider & Redigere kundesidernes indhold i forhold til billeder og tekst (Vi ved endnu ikke hvordan dette skal implementeres) \\
+\hline "Home" link & Sender kunden til "home" web-page \\
+\hline Booking link & Sender kunden til booking web-page \\
+\hline Galleri link & Sender kunden til galleri web-page \\
+\hline Kontakt link & Sender kunden til kontakt web-page \\
+\hline Aktiviteter link & Sender kunden til aktiviteter web-page \\
+\hline
+\end{tabular}
+
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{\textwidth}
+
+\captionof{table}{Entity} \label{tab:title}
+\begin{tabular}{| p{5cm} | p{10cm} |}
+\hline Admin databasen & Indeholder oplysninger om hvilke brugere der eksistere i systemet \\
+\hline Administrator siden & Her har administrator mulighed for at tilse aktuelle bookninger og rette i databasen \\
+\hline Booking database & Indeholder alle bookinger på siden \\
+\hline
+\end{tabular}
+
+\end{minipage}
+\newpage
+\subsection{f - Sekvensdiagrammer over use cases}
+De følgende sekvensdiagrammer illusterer interaktionen mellem aktøren og systemet i en use case.\\ 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{adminInteraction.jpg}
+\caption{Sekvens-diagram over use-casen EditBooking}
+\end{figure}
+Figur 3: Brugeren forespørger om en ændring på admin siden. 
+Fra admin siden sendes en forespøgsel til en funktion der validere denne. 
+funktionen sender en forespørgsel til databasen som svare.
+Hvis valideringsfunktionen evaluere tl "sand", 
+bliver ændringen i databasen gennemført.
+Hvis ikke bliver det skridt sprunget over.
+man får en statusopdatering der beskriver om ændringen bliver uflført eller ej.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{adminLog-in.jpg}
+\caption{Sekvens-diagram over use-casen Login}
+\end{figure}
+Figur 4:
+Brugeren intaster dennes informatoner på login skærmen.
+Denne sender forespørgslen til en sikkerhedsvalideringsfunktion.
+Denne forespørger om en match i admindatabasen.
+Denne sender svar tilbage.
+Sikkerhedsvalideringsfunktionen validere forespørgslen.
+Svaret bliver sendt til login skærmen.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{customerLog-in.jpg}
+\caption{Sekvens-diagram over use-casen CreateBooking}
+\end{figure}
+Figur 5:
+Brugeren intaster information på bookingsiden.
+Informationen bliver sendt til en valideringsfunktion.
+Denne forespørger om der er konflikter i databasen.
+Databasen svarer
+valideringsfunktionen validere forespørgslen.
+Status på forespørgsel vises på bookingsiden.
+\newpage
+\section{Systemdesign sammenfatning}
+\textbf{Systemet som det er nu:}
+Vi har benyttet Play! frameworket til at lave en meget fin prototype at systemet.
+Det er nu muligt at navigere mellem alle de forskellige sider, på hjemmesiden. Vi har fået implementeret en billede-slider på siden \textit{Gallery}, som præsenterer billeder af stedet i et diasshow. På siden \textit{Contact} har vi implementeret et google-maps kort, der viser hostelets beliggenhed. Bookingsystemet er også blevet konstrueret, og det er nu muligt at tilføje en booking fra bruger-siden, samt tilføje og slette bookinger fra admin-siden. Bookingerne gemmes i en database.    
+
+\textbf{De væsentligste mangler:}
+Vi mangler en funktion der gør det muligt for administratoren at ændre en booking. Desuden mangler vi stadig at lave et login-system til admin-siden.\\
+Vi skal også gøre det muligt for kunden, selv at bestemme hvilke billeder der fremvises samt redigere i teksten på de forskellige sider. Endeligt mangler vi at koble bookingsystemet til et betalingssystem.
+\section{Program- og systemtest}
+Resultetet af vores tests er som følgende:\\
+- Vi kan navigere rundt imellem vores forskellige sider.\\
+- Vi kan oprette og slette bookninger.\\
+- Vi kan sortere i bookningernes representation.
+\newpage
+\section{Brugergrænseflade og interaktonsdesign}
+Dette afsnit omhandler brugergrænsefladen og interaktionendesignet, for vores system. 
+\subsection{Eksempler på brugergrænseflade}
+Følgende billeder viser brugergrænsefladen på hjemmesiden.\\\\
+I figur 6 ses vors booking side hvor man kan oprette en booking. 
+Det foreløbige design er således at der udover den oblikatoriske meny-bar 
+også er fire tekstfelter, en "drop-down" meny og en knap.
+Disse felter skal indsamle det data der bliver til en oprettet booking 
+( indholdet af en booking er ikke færdigt endnu, 
+der vil altså være andre/anderledes parametre i slutproduktet). 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5] {brugergransefladebilled1.jpg}
+\caption{Opretter en booking. Her ses en bookning der er ved at blive lavet, hvor brugeren er ved at vælge dato}
+\end{figure}
+\newpage
+I figur 7 ses det layout som går igen på de fleste sider,
+ med overskrift, menu-bar og teskt.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6] {brugergransefladebilled2.jpg}
+\caption{Index siden. Her ses vores sides forside} 
+\end{figure}
+\newpage
+I figur 8 ses den forløbige admin side hvor administrator har overblikket
+over bookinger(admin kan søge og slette bookinger) 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4] {brugergransefladebilled3.jpg}
+\caption{Oprettede bookinger. Her ses admin siden hvor admin kan se og redigere bookinger}
+\end{figure}
+
+\subsection{Dynamikken i brugerinteraktion}
+I figur 9 ses rutediagrammet over 
+hvordan brugere af siden kan bevæge sig imellem de forskellige views. 
+Dette er for kundens vedkommende gjordt ved at bruge meny-baren.
+Det er for admin gjordt ved at logge ind.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6] {flowchart.jpg}
+\caption{Flowchart over siden. Her ses rutediagrammet som siden fungere på nuværende tidspunkt}
+\end{figure}
+\newpage
+\subsection{Audio-visual præsentation}
+Følg linket for at se en audio-visual repræsentation af brugergrænsefladen af vores seneste prototype:\\
+https://youtu.be/CF55ggqy9M8
+\section{Projektsamarbejdet}
+Internt i gruppen arbejder vi godt sammen. For nogle uger siden besluttede vi os for at sætte mandag og torsdag af til at arbejde på projektet. Siden da er vi nået rigtig langt med systemet. 
+
+Vi har indtil videre haft tre møder med kunden. Møderne foregår over Skype, da kunden bor i Venezuela. På trods af at afstanden kan være upraktisk, er kunden fleksibel med dato for møder, da vi blot mødes over Skype.
+
+Under møderne tager vi referat i form af stikord, og dokumenterer de aftalte ændringer i projektaftalen og projektplanen, i rapporten. 
+\newpage
+\section{Litteraturreview}
+\subsection{Review af The M.A.D experience, Christensen et al. (1998)}
+The M.A.D experience er en artikel omhandlende en research gruppe fra Århus universitet, der  ingår et samarbejde med et stort glabalt shippingfirma om at lave en prototype til et kundeservicesystem. 
+Arktiklen handler, om hvordan gruppen får designet og implementeret en rigtig god prototype, der endda overgår shipping firmaets forventninger. Dette uden at gruppen havde nogen som helst form for ekpertise inden for shippingområdet.
+Artiklen diskuterer, hvilke delelementer der spillede en rolle for denne succesfulde udføring af projektet.
+Gruppemedlemmerne havde tre forskellige roller: en etnograf, en participatorisk designer og seks objektorienterede designere. 
+
+Etnografen står for at udforme et design, der sørger for, at systemet relaterer til det miljø, projektet omhandler. Han identificerer problemløsningsområdet men ikke selve designløsningerne.
+
+Den participatoriske designer arbejder med vigigheden i at involvere potentielle brugere af systemet i den kreative designprocess. Dette gøres både ud fra et moralsk og et praktisk grundlag, da det er rimeligt at lade de, som i sidste ende skal bruge systemet, være med til at tage beslutninger, og at disse personer samtidig er de mest praktiske forsøgspersoner at have med ind over projektet. 
+Den participatoriske designer går op i at afholde workshops for forskellige mennesker, der har en eller anden tilknytning til projektet, for derefter at indrette systemdesignet udfra den konstruktive kritik de modtager under disse workshops.
+
+De objektorienterede designere integrerer analyserne og designet fra etnografen og den participatoriske designer i det endelige design og implementering at systemet.
+
+Udover disse tre elementer kommenterer artiklen på, at det er vigtigt, at man kommer igang med programmeringen så tidligt som muligt, bl.a. så man har noget at vise frem og få feedback på fra kunden og brugerne. Men også fordi at det i deres projekt, som også diskuteret i A Rational Design Process \footnote{Parnas and Clements 1986: A Rational Design Process: How and Why to Fake It }, ikke stod klart fra start af, præcis hvordan systemet skulle udformes. 
+De fandt, at man altid ville ende op med et andet design end den initielle design struktur, blandt andet på grund af den feedback de fik fra kunden og brugerne. 
+
+Det konkluderes, at et succesfuldt projekt kan opnås ved at have fokus på analyse af det miljø og det praktiske, som systemet omhandler, og skal henvende sig til. Disse elementer skal optræde som en integreret del af implementeringen af projektet.
+\subsection{No silver bullet}
+No Silver Bullet – Essence And Accidents in Software Engineering handler om software udvikling og dets vanskeligheder (essentiel og utilsigtet) og løsningerne på problemerne. 
+
+Han undersøger arten af programfejl, og egenskaberne af de løsninger som han selv kalder silver bullets. 
+
+Brooks mener, at den sværeste del af software udvikling er de arkitektoniske opgaver som specifikation, design og test af konstruktionen.
+
+Vanskelighederne er delt op i essentielle og utilsigtet typer. De essentielle problemer er medfødte  til software. En kompleks og præcis abstrakt konstruktion afledt af datasæt, dataelementer, algoritmer og funktioner. De utilsigtet problemer er de problemer der opstår, når en udvikler er i gang med at udvikle softwaren men er ikke medfødte i selve softwaren.
+
+Brooks opstiller de essentielle vanskeligheder som kompleksitet, overenstemmelse, foranderlig og usynlighed. De uvæsentlig problemer er ikke opstillet så klart.
+
+Tre løsninger på utilsigtet  problemer bliver diskuteret. Det er høj niveau programmerings sprog, multiprogrammering og forenet udviklings miljøer. Det største gennembrud for produktiviteten, pålideligheden og enkelhed af de tre løsnings forslag er høj niveau sprog. Høj niveau sprog giver stærke fælles konstruktioner til programmøren og reducere et niveau af software kompleksitet.
+
+I vores projekt hvor vi skal udvikle en hjemmeside med et booking system til nogle sommerhuse i Venezuela. Har vi også benyttet os af et høj niveau sprog som gør udvikling for vores projekt en del lettere og er med til at optimerer vores program. OOSE bogen anbefaler også brug af høj niveau sprog til udvikling, da der er mange tilgængelig pakker der kan hjælpe til udviklingen.
+
+For at samle vores projekt et sted der gør det let tilgængeligt for os alle og gør det muligt for os at udvikle på dele af programmet er github.
+\newpage
+\section{Bilag}
+\subsection{Bilag 1: Versionsstyring}
+Link til vores commit-log på GitHub:\\
+https://github.com/fumpen/pksu/commits/master
+\subsection{Bilag 2: Changelog for projektrapporten}
+Jeppe Schönemann Skov - JSS\\
+Frederik Leed Henriksen - FLH\\
+Rose Sofie Greve - RSG\\
+
+\begin{table}[h]
+\begin{tabular}{lllll}
+\cline{1-4}
+\multicolumn{1}{|l|}{Initialer} & \multicolumn{1}{l|}{Dato} & \multicolumn{1}{l|}{Afsnit} & \multicolumn{1}{l|}{Ændring} &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{JSS, FLH, RSG}     & \multicolumn{1}{l|}{23.04.15}     & \multicolumn{1}{l|}{Alle}       & \multicolumn{1}{l|}{Release edition 1.0}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{1, 2}       & \multicolumn{1}{l|}{Stavefejl, mere præcis beskrivelse}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.a}       & \multicolumn{1}{l|}{Krav i stikord, mere uddybende}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{FLH}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.b, 3.c, 3.e}       & \multicolumn{1}{l|}{Omskrivning og ændring i model}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.d}       & \multicolumn{1}{l|}{Opdateret klassediagramet}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG, JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{3.f}       & \multicolumn{1}{l|}{Kommentarer til firgurer}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG, JSS}     & \multicolumn{1}{l|}{07.05.15}     & \multicolumn{1}{l|}{6, 7}       & \multicolumn{1}{l|}{Ændring i tekst}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{11.05.15}     & \multicolumn{1}{l|}{4, 5, 7}       & \multicolumn{1}{l|}{Ændring i tekst}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{FLH}     & \multicolumn{1}{l|}{11.05.15}     & \multicolumn{1}{l|}{6}       & \multicolumn{1}{l|}{Flowchart, skærmbilleder, video}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{21.05.15}     & \multicolumn{1}{l|}{3.1 a}       & \multicolumn{1}{l|}{Ændring i tekst}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{27.05.15}     & \multicolumn{1}{l|}{3.1 b}       & \multicolumn{1}{l|}{Nyt diagram}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{RSG}     & \multicolumn{1}{l|}{27.05.15}     & \multicolumn{1}{l|}{3.1 c}       & \multicolumn{1}{l|}{Ændring af entry og exit conditions}        &  \\ \cline{1-4}
+\multicolumn{1}{|l|}{FLH}     & \multicolumn{1}{l|}{27.05.15}     & \multicolumn{1}{l|}{3.1 f}       & \multicolumn{1}{l|}{Beskrivende tekst til diagrammerne}        &  \\ \cline{1-4}
+                           &                           &                             &                              & 
+\end{tabular}
+\end{table}
+\subsection{Bilag 3: Timeline}
+-Under første møde d. 19. februar 2015 fik vi lavet en projektaftale med kunden.\\
+-Under andet møde d. 10. marts 2015 snakkede vi detaljer ift. bookingsystemet.\\
+-Under tredje møde d. 15. april 2015 snakkede vi om valg af betalingssystem, samt om hvilke dele
+af projektet kunden helst så os nedprioritere i tilfælde af tidspres.\\
+-Den 11 maj 2015 havde vi den første prototype. Denne var i stand til at
+oprette bookinger, slette bookinger, sortere bookninger og den havde næste
+ alle de sider som der skal være i det endelige produkt.
+\subsection{Bilag 4: Test}
+Vi har manuelt testet:\\
+- Navigationen mellem siderne\\
+- Opretning/sletning af bookinger\\
+- Sortering i bookninger.\\
+\\
+Da der endnu ikke er implementeret yderligere funktionalitet,
+har vi endnu ikke testet mere.
+\end{document}

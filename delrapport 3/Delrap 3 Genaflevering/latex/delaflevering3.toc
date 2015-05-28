@@ -1,0 +1,20 @@
+\select@language {danish}
+\contentsline {section}{\numberline {1}Abstract}{3}{section.1}
+\contentsline {section}{\numberline {2}IT-projektets form\IeC {\r a}l og rammer}{4}{section.2}
+\contentsline {section}{\numberline {3}Kravspecifikationer for IT-l\IeC {\o }sningen}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}a}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}b}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}c}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}d}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}e}{9}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}f}{10}{subsection.3.6}
+\contentsline {section}{\numberline {4}Systemdesign sammenfatning}{12}{section.4}
+\contentsline {section}{\numberline {5}Program- og systemtest}{12}{section.5}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktonsdesign}{12}{section.6}
+\contentsline {subsection}{\numberline {6.1}eksempler p\IeC {\r a} brugergr\IeC {\ae }nseflade}{12}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}dynamikken i brugerinteraktion}{15}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}audio-visual pr\IeC {\ae }sentation}{16}{subsection.6.3}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{16}{section.7}
+\contentsline {section}{\numberline {8}Litteraturreview}{17}{section.8}
+\contentsline {subsection}{\numberline {8.1}Designing for usability}{17}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}A rational design process}{17}{subsection.8.2}
