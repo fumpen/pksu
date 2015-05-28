@@ -1,0 +1,7 @@
+-Under første møde d. 19. februar 2015 fik vi lavet en projektaftale med kunden.
+-Under andet møde d. 10. marts 2015 snakkede vi detaljer ift. bookingsystemet.
+-Under tredje møde d. 15. april 2015 snakkede vi om valg af betalingssystem, samt om hvilke dele
+af projektet kunden helst så os nedprioritere i tilfælde af tidspres.
+-Den 11 maj 2015 havde vi den første prototype. Denne var i stand til at
+oprette bookinger, slette bookinger, sortere bookninger og den havde næste
+ alle de sider som der skal være i det endelige produkt.

@@ -1,0 +1,15 @@
+til punktet:
+resultetet af vores tests er som følgende:
+vi kan navigere rundt imellem vores forskellige sider.
+vi kan oprette og slette bookninger.
+vi kan sortere i bookningernes representation
+
+
+til bilag:
+vi har manuelt testet:
+navigationen mellem siderne
+opretnnig/sletning af bookinger
+sortering i bookninger.
+
+på grund af at der endnu ikke er implementeret yderligere funktionalitet,
+har vi endnu ikke testet mere.
