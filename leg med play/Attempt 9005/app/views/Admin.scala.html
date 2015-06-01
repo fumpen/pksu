@@ -1,0 +1,76 @@
+@(bookings: List[Booking])
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="@routes.Assets.at("javascripts/jquery.js")" ></script>
+        <script src="@routes.Assets.at("javascripts/jquery.dataTables.js")" ></script>
+        <script src="@routes.Assets.at("javascripts/deleteBooking.js")"></script>
+        <script src="@routes.Application.jsRoutes()"></script>
+        <link rel="stylesheet" href="@routes.Assets.at("stylesheets/jquery.dataTables.css")">
+        <link rel ="stylesheet" href="@routes.Assets.at("stylesheets/style.css")"/>
+
+        <script>
+            $(document).ready(function() {
+             $('#example').dataTable( {
+              "dom": '<"top"i>rt<"bottom"flp><"clear">'
+                 } );
+                } );
+        </script>
+    </head>
+
+    <body>
+        <div id="menu">
+            <ul>
+                <li><a  href=@routes.Application.index()><span>Home</span></a></li>
+                <li><a  href="@routes.Application.activities()"><span>Activities</span></a></li>
+                <li><a  href=@routes.Application.bestil()><span>Booking</span></a></li>
+                <li><a  href=@routes.Application.gallery()><span>Gallery</span></a></li>
+                <li><a  href=@routes.Application.contact()><span>Contact</span></a></li>
+            </ul>
+        </div>
+
+
+<break />
+
+
+        <table id="example" class="display" width="100%" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Last Name</th>
+                    <th>Arrival</th>
+                    <th>Departure</th>
+                    <th>Room</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Last Name</th>
+                    <th>Arrival</th>
+                    <th>Departure</th>
+                    <th>Room</th>
+                    <th>Delete</th>
+                </tr>
+            </tfoot>
+
+            <tbody id="myList" class="myUnorderedList">
+                @for(booking <- bookings){
+                    <tr>
+                        <td>@booking.name</td>
+                        <td>@booking.lname</td>
+                        <td>@booking.arrDate</td>
+                        <td>@booking.depDate</td>
+                        <td>@booking.room></td>
+                        <td><a class="deleteBooking" href="#" id="@booking.id">X</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </body>
+</html>

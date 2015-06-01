@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Contact </title>
+		<link rel ="stylesheet" href="@routes.Assets.at("stylesheets/roseStyle.css")" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script type="text/javascript" src="@routes.Assets.at("javascripts/map.js")"></script>
+	</head>
+	<body>
+		<div id="page">
+			<div id="menu">
+				<ul>
+					<li><a  href="@routes.Application.index()"><span>Home</span></a></li>
+					<li><a  href="@routes.Application.activities()"><span>Activities</span></a></li>
+					<li><a  href="@routes.Application.bestil()"><span>Booking</span></a></li>
+					<li><a  href="@routes.Application.gallery()"><span>Gallery</span></a></li>
+					<li><a  href="@routes.Application.contact()"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			<div id="logo">
+				<h1><img src="@routes.Assets.at("images/billeder/logo.jpg")" alt="" /></h1>
+			</div>
+			<div id="content">
+				<div id='map-canvas'></div>
+				<div class="post">
+					<h2>Contact information</h2>
+					<div class="entry">
+						<p>Adress: Aricagua, Isla Margarita, Venezuela</p>
+						<p>Email: annakroyer@@hotmail.com</p>
+						<p>Phone: +91 302 662 41</p>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<p>Copyright &copy; 2015</p>
+			</div>
+		</div>
+	</body>
+</html>
