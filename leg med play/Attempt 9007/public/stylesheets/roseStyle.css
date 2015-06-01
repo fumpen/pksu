@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    padding-bottom: 40px;
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #F7E6A0;
+   background: #492F23;
+}
+
+h1 {
+    float: left;
+    padding: 50px 0 0 10px;
+}
+
+#page {
+    width: 65%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    -moz-box-shadow: 0 -5px 10px #777;
+    -webkit-box-shadow: 0 -5px 10px #777;
+    background: -webkit-gradient(
+	linear, right bottom, left top, color-stop(0, #513629), color-stop(0.72, #513629)) !important;
+    background: -moz-linear-gradient(
+	right bottom, #CD9365 0%, #431904 72%) !important;
+    background-color:#431904 !important;
+    -moz-opacity:.90; filter:alpha(opacity=90); opacity:.90;
+}
+
+#menu, #logo {
+    height: 80px;
+}
+
+#menu ul {
+    padding: 177px 0 0 10px;
+    list-style: none;
+    float: right;
+    align:
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin-left: 3px;
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: #F7E6A0;
+}
+
+
+p {
+    padding:0;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+#mainimg {
+    display: block;
+    width:100%;
+    padding: 3px;
+    margin-bottom: 40px;
+}
+
+
+#content {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#content .post {
+    padding: 0 0 3.5em 0;
+}
+
+#content h2 {
+    font: 3em Georgia, Times, serif;
+    color: #F7E6A0;
+    letter-spacing: -1px;
+}
+p.postmeta {
+    margin: 10px 0;
+    line-height: 32px;
+}
+#footer {
+    clear: both;
+    padding: 20px 40px;
+    border-top: 3px solid #F7E6A0;
+}
+
+#footer p {
+    font-size: .92em;
+    text-align: center;
+}
+
+#slideshow #slideshowWindow {
+    width:100%;
+    height: 600px;
+    margin-bottom:40px;
+    padding:0;
+    position:relative;
+    overflow:hidden;
+    border: 1px solid #CD9365;
+}
+
+
+#slideshow #slideshowWindow .slide .slideText {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:70px;
+	margin:0;
+	padding:0;
+	background: rgba(204, 204, 204, 0.3);
+	-pie-background: rgba(204, 204, 204 , 0.3);
+	behavior: url(PIE.htc);
+	background-repeat:repeat;
+	color:#ffffff;
+	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+#map-canvas{
+    width: 100%;
+    height: 400px;
+    padding: 3px;
+    margin-bottom: 40px;
+}
