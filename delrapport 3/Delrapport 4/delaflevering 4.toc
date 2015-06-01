@@ -1,0 +1,17 @@
+\select@language {danish}
+\contentsline {section}{\numberline {1}Abstract}{3}{section.1}
+\contentsline {section}{\numberline {2}IT-projektets form\IeC {\r a}l og rammer}{4}{section.2}
+\contentsline {section}{\numberline {3}Kravspecifikationer for IT-l\IeC {\o }sningen}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}a - Funktionelle og ikke funktionelle krav}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}b - Use case model}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}c - Use cases}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}d - Klassediagram over problemomr\IeC {\r a}det}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}e - BCE-model}{9}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}f - Sekvensdiagrammer over use cases}{10}{subsection.3.6}
+\contentsline {section}{\numberline {4}Systemdesign sammenfatning}{12}{section.4}
+\contentsline {section}{\numberline {5}Program- og systemtest}{12}{section.5}
+\contentsline {section}{\numberline {6}Brugergr\IeC {\ae }nseflade og interaktonsdesign}{13}{section.6}
+\contentsline {subsection}{\numberline {6.1}Eksempler p\IeC {\r a} brugergr\IeC {\ae }nseflade}{13}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Dynamikken i brugerinteraktion}{15}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Audio-visual pr\IeC {\ae }sentation}{16}{subsection.6.3}
+\contentsline {section}{\numberline {7}Projektsamarbejdet}{16}{section.7}
