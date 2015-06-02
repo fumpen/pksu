@@ -4,10 +4,11 @@
     <head>
         <script src="@routes.Assets.at("javascripts/jquery.js")" ></script>
         <script src="@routes.Assets.at("javascripts/jquery-ui.js")" ></script>
-        <script src="@routes.Assets.at("javascripts/deleteBooki<script src=\"@routes.Application.jsRoutes()\"></script>ng.js")"></script>
+        <script src="@routes.Assets.at("javascripts/deleteBooking.js")"></script>
+        <script src="@routes.Application.jsRoutes()"></script>
 
         <link rel="stylesheet" href="@routes.Assets.at("stylesheets/jquery-ui.css")">
-        <link rel ="stylesheet" href="@routes.Assets.at("stylesheets/style.css")"/>
+        <link rel ="stylesheet" href="@routes.Assets.at("stylesheets/roseStyle.css")"/>
 
         <script>
             $(function() {
@@ -32,42 +33,51 @@
     </head>
 
     <body>
+    <div id="page">
         <div id="menu">
             <ul>
                 <li><a  href=@routes.Application.index()><span>Home</span></a></li>
-                <li><a  href="@routes.Application.activities()"><span>Activities</span></a></li>
+                <li><a  href=@routes.Application.activities()><span>Activities</span></a></li>
                 <li><a  href=@routes.Application.bestil()><span>Booking</span></a></li>
                 <li><a  href=@routes.Application.gallery()><span>Gallery</span></a></li>
-                <li><a  href="#"><span>Contact</span></a></li>
+                <li><a  href=@routes.Application.contact()><span>Contact</span></a></li>
             </ul>
         </div>
         <div id="logo">
-            <h1>Organic Donkey</h1>
+            <h1><img src="@routes.Assets.at("images/billeder/logo.jpg")" alt="" /></h1>
         </div>
-
-<break />
-
-        <label for="name">Name</label>
-        <input type="text" id="name" />
-
-        <label for="LastName">Last name</label>
-        <input type="text" id="lname"/>
-
-
-        <label for="from">From</label>
-        <input type="text" id="from" name="from">
-        <label for="to">to</label>
-        <input type="text" id="to" name="to">
-
-        <label for="room">Room</label>
-        <select name="room" id="room" required>
-            <option value="101" selected="selected">Room 1</option>
-            <option value="102">Room 2</option>
-            <option value="103">Room 3</option>
-            <option value="104">Room 4</option>
-        </select>
-        <input id="myFormSubmit" type="submit" />
-
-
+        <img id="mainimg" src="@routes.Assets.at("images/billeder/slide1.jpg")" alt="" />
+        <div id="content">
+            <div class="post">
+                <h2>Make your booking now!</h2>
+                <p class="postmeta"> April 20, 2015</p>
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+                <br>
+                <br>
+                <label for="LastName">Last name</label>
+                <input type="text" id="lname"/>
+                <br>
+                <br>
+                <label for="from">From</label>
+                <input type="text" id="from" name="from">
+                <label for="to">to</label>
+                <input type="text" id="to" name="to">
+                <br>
+                <br>
+                <label for="room">Room</label>
+                <select name="room" id="room" required>
+                    <option value="101" selected="selected">Room 1</option>
+                    <option value="102">Room 2</option>
+                    <option value="103">Room 3</option>
+                    <option value="104">Room 4</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <input id="myFormSubmit" type="submit" />
+            </div>
+        </div>
+    </div>
     </body>
 </html>

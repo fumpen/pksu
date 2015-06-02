@@ -1,0 +1,16 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>LogIn</title>
+    </head>
+    <body>
+        <h1>Log in to admin site</h1>
+        <form action="@routes.Application.logOn()" method="post">
+            <label>username</label>
+            <input type="text" name="user">
+            <label>password</label>
+            <input type="password" name="password">
+            <input type="submit" >
+        </form>
+    </body>
+</html>

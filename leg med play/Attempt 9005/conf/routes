@@ -3,30 +3,40 @@
 # ~~~~
 
 # Home page
-GET        /                                                                  controllers.Application.index()
+GET         /                                                                  controllers.Application.index()
 
 # Gallery page
-GET        /gallery                                                           controllers.Application.gallery()
-GET        /gallery/                                                          controllers.Application.gallery()
+GET         /gallery                                                           controllers.Application.gallery()
+GET         /gallery/                                                          controllers.Application.gallery()
 
 # Contact page
-GET        /contact                                                           controllers.Application.contact()
-GET        /contact/                                                          controllers.Application.contact()
+GET         /contact                                                           controllers.Application.contact()
+GET         /contact/                                                          controllers.Application.contact()
 
 # activities
-GET         /activities                                                       controllers.Application.activities()
+GET         /activities                                                        controllers.Application.activities()
+GET         /activities/                                                       controllers.Application.activities()
 
 # Booking page
-GET        /bestil                                                            controllers.Application.bestil()
-GET        /bestil/                                                           controllers.Application.bestil()
+GET         /bestil                                                            controllers.Application.bestil()
+GET         /bestil/                                                           controllers.Application.bestil()
 
-GET        /admin                                                             controllers.Application.admin()
-GET        /admin/                                                            controllers.Application.admin()
+GET         /admin                                                             controllers.Application.admin()
+GET         /admin/                                                            controllers.Application.admin()
 
-GET        /admin/booking/create/:name/:lname/:arrDate/:depDate/:room/        controllers.Application.addBooking(name: String, lname: String, arrDate: String, depDate: String, room: String)
-GET        /admin/:id/delete/                                                 controllers.Application.deleteBooking(id: Integer)
+GET         /admin/booking/create/:name/:lname/:arrDate/:depDate/:room/        controllers.Application.addBooking(name: String, lname: String, arrDate: String, depDate: String, room: String)
+GET         /admin/:id/delete/                                                 controllers.Application.deleteBooking(id: Integer)
+
+# login page
+GET         /login                                                             controllers.Application.login()
+GET         /login/                                                            controllers.Application.login()
+POST        /login/logOn                                                       controllers.Application.logOn()
+
+# opretAdmin page ( snydesiden til adminrettighedder)
+GET         /opretAdmin                             controllers.Application.opretAdmin()
+POST        /opretAdmin/createAdminv2              controllers.Application.createAdminv2()
 
 
 # Map static resources from the /public folder to the /assets URL path
-GET        /assets/javascripts/routes                                         controllers.Application.jsRoutes()
-GET        /assets/*file                                                      controllers.Assets.at(path="/public", file)
+GET         /assets/javascripts/routes                                         controllers.Application.jsRoutes()
+GET         /assets/*file                                                      controllers.Assets.at(path="/public", file)

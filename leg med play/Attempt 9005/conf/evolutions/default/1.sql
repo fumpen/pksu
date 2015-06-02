@@ -3,6 +3,18 @@
 
 # --- !Ups
 
+create table admin_information (
+  id                        integer primary key AUTOINCREMENT,
+  user                      varchar(255),
+  password                  varchar(255))
+;
+
+create table admin_session (
+  timenow                   integer primary key AUTOINCREMENT,
+  admin_name                varchar(255),
+  session_uuid              varchar(255))
+;
+
 create table booking (
   id                        integer primary key AUTOINCREMENT,
   name                      varchar(255),
@@ -18,6 +30,10 @@ create table booking (
 # --- !Downs
 
 PRAGMA foreign_keys = OFF;
+
+drop table admin_information;
+
+drop table admin_session;
 
 drop table booking;
 

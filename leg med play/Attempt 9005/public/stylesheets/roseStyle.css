@@ -1,8 +1,3 @@
-*{
-    margin:0px;
-    padding:0px;
-}
-
 body {
     padding-bottom: 40px;
     font: 13px Arial, Helvetica, sans-serif;
@@ -80,6 +75,7 @@ p {
     margin-bottom: 40px;
 }
 
+
 #content {
     float: left;
     width: 100%;
@@ -111,22 +107,14 @@ p.postmeta {
 }
 
 #slideshow #slideshowWindow {
-    height:600px;
-    width:100%;
+    width:952px;
     margin-bottom:40px;
     padding:0;
-    position:relative;
+    position:center;
     overflow:hidden;
     border: 1px solid #CD9365;
 }
 
-#slideshow #slideshowWindow .slide {
-    margin:0;
-    padding:0;
-    width:952px;
-    height:600px;
-    position:relative;
-}
 
 #slideshow #slideshowWindow .slide .slideText {
 	position:absolute;
@@ -142,12 +130,6 @@ p.postmeta {
 	background-repeat:repeat;
 	color:#ffffff;
 	font-family:Myriad Pro, Arial, Helvetica, sans-serif;
-}
-
-#slideshow #slideshowWindow .slide .slideText h2, 
-#slideshow #slideshowWindow .slide .slideText p {
-	margin:10px 0 0 10px;
-	padding:0;
 }
 
 #map-canvas{

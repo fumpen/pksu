@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>opret admin</title>
+    </head>
+    <body>
+        <h1>Opret admin</h1>
+        <form action="@routes.Application.createAdminv2()" method="post">
+            <label>username</label>
+            <input type="text" name="user">
+            <label>password</label>
+            <input type="text" name="password">
+            <input type="submit">
+        </form>
+    </body>
+</html>
