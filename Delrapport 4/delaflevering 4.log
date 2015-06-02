@@ -1,15 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.5.27)  2 JUN 2015 18:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.30)  2 JUN 2015 19:10
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**"delaflevering 4.tex"
-(./delaflevering 4.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+**C:/Users/Rose/Documents/GitHub/pksu/Delrapport*4/delaflevering*4.tex
+("C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/delaflevering 4.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,27 +30,27 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -192,8 +199,8 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -223,8 +230,8 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -247,11 +254,11 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
 \NC@list=\toks16
@@ -266,10 +273,10 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \TX@cols=\count87
 \TX@ftn=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip45
@@ -287,7 +294,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip57
 \JustifyingParindent=\skip58
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen110
 \lightrulewidth=\dimen111
@@ -307,15 +314,15 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count91
 \@thisrulewidth=\dimen122
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks18
 )
 \captionmargin=\dimen123
@@ -328,11 +335,11 @@ Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count92
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
 \float@exts=\toks19
@@ -340,16 +347,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks21
 \c@algorithm=\count94
 )
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
 
-(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -365,17 +372,17 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip61
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xy.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
-catcodes, docmode, (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyrecat.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/xypic/xyidioms.tex)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xy.tex" Bootstrap'ing:
+catcodes, docmode, ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrecat.tex"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyidioms.tex")
 
  Xy-pic version 3.8.9 <2013/10/06>
  Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
@@ -430,15 +437,15 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package: xy 2013/10/06 Xy-pic version 3.8.9
 
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyall.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyall.tex"
  Xy-pic option: All features v.3.8
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xycurve.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycurve.tex"
  Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count106
 \crvpts@=\toks26
@@ -450,21 +457,21 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  circles,
 \L@=\dimen162
  loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyframe.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyframe.tex"
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xycmtip.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycmtip.tex"
  Xy-pic option: Computer Modern tip extension v.3.7
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xytips.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xytips.tex"
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyline.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyline.tex"
  Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen163
  loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyrotate.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyrotate.tex"
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xycolor.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xycolor.tex"
  Xy-pic option: Colour extension v.3.11 loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xymatrix.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xymatrix.tex"
  Xy-pic option: Matrix feature v.3.14
 \Row=\count107
 \Col=\count108
@@ -474,42 +481,42 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 \qcount@@=\count110
 \matrixsize@=\count111
  loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xyarrow.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xyarrow.tex"
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xygraph.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xygraph.tex"
  Xy-pic option: Graph feature v.3.11 loaded) loaded)
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf.tex"
  Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-co.tex" loaded)
 Xy-pic pdf driver: `curve' extension support
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-cu.tex" loaded)
 Xy-pic pdf driver: `frame' extension support
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-fr.tex" loaded)
 Xy-pic pdf driver: `line' extension support
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-li.tex" loaded)
 Xy-pic pdf driver: `rotate' extension support
-(/usr/share/texlive/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded) loaded))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\generic\xypic\xypdf-ro.tex" loaded) loaded))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count112
@@ -517,14 +524,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks29
 \symAMSa=\mathgroup4
@@ -532,24 +539,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks30
 \ex@=\dimen166
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen167
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count113
@@ -590,41 +597,47 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eucal.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\eucal.sty"
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-danish/danish.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\danish.ldf"
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count125
 \U@D=\dimen175
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks35
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -654,7 +667,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -662,27 +675,27 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen176
 \Hy@linkcounter=\count126
 \Hy@pagecounter=\count127
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count128
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -694,7 +707,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count129
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -719,19 +732,19 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count134
 \c@bookmark@seq@number=\count135
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip65
 )
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -767,29 +780,29 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen180
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks36
 \minrowclearance=\skip66
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -804,30 +817,30 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 \symusualmathcal=\mathgroup8
 
-(./delaflevering 4.aux
+("C:\Users\Rose\Documents\GitHub\pksu\Delrapport 4\delaflevering 4.aux"
 
 LaTeX Warning: Label `tab:title' multiply defined.
 
@@ -844,8 +857,6 @@ LaTeX Warning: Label `tab:title' multiply defined.
 LaTeX Warning: Label `tab:title' multiply defined.
 
 )
-\openout1 = `"delaflevering 4.aux"'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
@@ -861,7 +872,7 @@ LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 90.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ABD: EverySelectfont initializing macros
@@ -873,40 +884,40 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 90
 .
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 90
 .
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 90
 .
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 90
 .
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 90.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 90.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 90.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -917,7 +928,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 Package xypdf Info: Line width: 0.47987pt on input line 90.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count136
 \scratchdimen=\dimen181
@@ -930,28 +941,13 @@ Package xypdf Info: Line width: 0.47987pt on input line 90.
 \MPnumerator=\count140
 \makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks38
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box35
 Package hyperref Info: Link coloring OFF on input line 90.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count142
@@ -960,10 +956,9 @@ LaTeX Info: Redefining \ref on input line 90.
 LaTeX Info: Redefining \pageref on input line 90.
 LaTeX Info: Redefining \nameref on input line 90.
 
-(./delaflevering 4.out) (./delaflevering 4.out)
+("C:\Users\Rose\Documents\GitHub\pksu\Delrapport 4\delaflevering 4.out")
+("C:\Users\Rose\Documents\GitHub\pksu\Delrapport 4\delaflevering 4.out")
 \@outlinefile=\write4
-\openout4 = `"delaflevering 4.out"'.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -974,41 +969,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 
 LaTeX Warning: No \author given.
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 105.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 105.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 105.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 105.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
- (./delaflevering 4.toc
+
+("C:\Users\Rose\Documents\GitHub\pksu\Delrapport 4\delaflevering 4.toc"
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write5
-\openout5 = `"delaflevering 4.toc"'.
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 107.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 107.
 
 [2]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 108.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 108.
-
 Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
@@ -1018,20 +991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 115.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 115.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 115.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 115.
 [3]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 116.
-
 Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
  []
@@ -1066,25 +1026,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 130.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 130.
 [4]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 131.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 131.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 132.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 132.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 132.
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--147
 
@@ -1100,20 +1044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--147
 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 147.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 147.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 147.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 147.
-[5]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 148.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 148.
- <hoejniveau.png, id=133, 413.545pt x 389.455pt>
+[5] <hoejniveau.png, id=147, 413.545pt x 389.455pt>
 File: hoejniveau.png Graphic file (type png)
  <use hoejniveau.png>
 Package pdftex.def Info: hoejniveau.png used on input line 152.
@@ -1123,20 +1054,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--159
 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 159.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 159.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 159.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 159.
-[6 <./hoejniveau.png>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 160.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 160.
-
+[6 <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/hoejniveau.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 164.
@@ -1157,28 +1075,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 204.
 See the caption package documentation for explanation.
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 220.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 220.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 220.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 220.
-[7]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 220.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 220.
- <BookingSystem.jpg, id=155, 250.9375pt x 361.35pt>
+[7] <BookingSystem.jpg, id=168, 250.9375pt x 361.35pt>
 File: BookingSystem.jpg Graphic file (type jpg)
  <use BookingSystem.jpg>
 Package pdftex.def Info: BookingSystem.jpg used on input line 225.
 (pdftex.def)             Requested size: 150.56364pt x 216.81168pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 228.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 228.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1190,15 +1091,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--244
 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 244.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 244.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 244.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 244.
-[8 <./BookingSystem.jpg>]
+[8 <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/BookingSystem.jpg>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 249.
@@ -1209,20 +1102,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 269.
 See the caption package documentation for explanation.
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 278.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 278.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 278.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 278.
-[9]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 279.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 279.
- <adminInteraction.jpg, id=172, 551.661pt x 350.5095pt>
+[9] <adminInteraction.jpg, id=185, 551.661pt x 350.5095pt>
 File: adminInteraction.jpg Graphic file (type jpg)
 
 <use adminInteraction.jpg>
@@ -1233,64 +1113,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--285
 
  []
 
-<adminLog-in.jpg, id=173, 538.4115pt x 325.215pt>
+<adminLog-in.jpg, id=186, 538.4115pt x 325.215pt>
 File: adminLog-in.jpg Graphic file (type jpg)
  <use adminLog-in.jpg>
 Package pdftex.def Info: adminLog-in.jpg used on input line 295.
 (pdftex.def)             Requested size: 323.0494pt x 195.1305pt.
 
-<customerLog-in.jpg, id=174, 531.78674pt x 390.86024pt>
+<customerLog-in.jpg, id=187, 531.78674pt x 390.86024pt>
 File: customerLog-in.jpg Graphic file (type jpg)
 
 <use customerLog-in.jpg>
 Package pdftex.def Info: customerLog-in.jpg used on input line 307.
 (pdftex.def)             Requested size: 319.07451pt x 234.51794pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 309.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 309.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 309.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 309.
- [10 <./adminInteraction.jpg> <./adminLog-in.jpg>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 317.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 317.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 317.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 317.
-
-[11 <./customerLog-in.jpg>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 318.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 318.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 326.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 326.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 328.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 328.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 328.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 328.
- [12]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 329.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 329.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 331.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 331.
-
-<brugergransefladebilled1.jpg, id=191, 1268.3385pt x 473.3685pt>
+ [10 <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/adminInteraction.jpg> <C
+:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/adminLog-in.jpg>] [11 <C:/Users
+/Rose/Documents/GitHub/pksu/Delrapport 4/customerLog-in.jpg>] [12] <brugergrans
+efladebilled1.jpg, id=204, 1268.3385pt x 473.3685pt>
 File: brugergransefladebilled1.jpg Graphic file (type jpg)
 
 <use brugergransefladebilled1.jpg>
@@ -1306,16 +1144,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--343
 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 344.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 344.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 344.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 344.
-[13 <./brugergransefladebilled1.jpg>]
-<brugergransefladebilled2.jpg, id=198, 1268.3385pt x 761.84625pt>
+[13 <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/brugergransefladebilled1.
+jpg>] <brugergransefladebilled2.jpg, id=211, 1268.3385pt x 761.84625pt>
 File: brugergransefladebilled2.jpg Graphic file (type jpg)
 
 <use brugergransefladebilled2.jpg>
@@ -1326,16 +1156,8 @@ Overfull \hbox (291.53853pt too wide) in paragraph at lines 349--350
  [][] 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 352.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 352.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 352.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 352.
-[14 <./brugergransefladebilled2.jpg>]
-<brugergransefladebilled3.jpg, id=204, 1268.3385pt x 473.3685pt>
+[14 <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/brugergransefladebilled2.
+jpg>] <brugergransefladebilled3.jpg, id=217, 1268.3385pt x 473.3685pt>
 File: brugergransefladebilled3.jpg Graphic file (type jpg)
 
 <use brugergransefladebilled3.jpg>
@@ -1346,146 +1168,61 @@ Overfull \hbox (37.85596pt too wide) in paragraph at lines 357--358
  [][] 
  []
 
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 361.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 361.
-<flowchart.jpg, id=205, 589.0005pt x 355.3275pt>
+<flowchart.jpg, id=218, 589.0005pt x 355.3275pt>
 File: flowchart.jpg Graphic file (type jpg)
  <use flowchart.jpg>
 Package pdftex.def Info: flowchart.jpg used on input line 368.
 (pdftex.def)             Requested size: 353.40302pt x 213.19814pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 371.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 371.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 371.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 371.
- [15 <./brugergransefladebilled3.jpg> <./flowchart.jpg>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 372.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 372.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 375.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 375.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 381.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 381.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 382.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 382.
-
+ [15 <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/brugergransefladebilled3
+.jpg> <C:/Users/Rose/Documents/GitHub/pksu/Delrapport 4/flowchart.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 383--387
 
  []
 
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 388.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 388.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 409.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 409.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 409.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 409.
  [16]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 437.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 437.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 438.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 438.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 446.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 446.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 446.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 446.
- [17]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 465.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 465.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 478.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 478.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 478.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 478.
- [18]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 512.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 512.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 512.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 512.
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
-[19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 531.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 531.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 531.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 531.
- [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 531.
- (./delaflevering 4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 531.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 531.
+ []
 
+[17] [18] [19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 573.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 573.
 
-Package rerunfilecheck Warning: File `"delaflevering 4".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+("C:\Users\Rose\Documents\GitHub\pksu\Delrapport 4\delaflevering 4.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 573.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 573.
+Package rerunfilecheck Info: File `delaflevering*4.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
 
-Package rerunfilecheck Info: Checksums for `"delaflevering 4".out':
-(rerunfilecheck)             Before: 450DA4089E299E4EFD7B525566AD4A52;1455
-(rerunfilecheck)             After:  4CBC0CBF9A04C1EC4260FBE573499CB6;1454.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 531.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 573.
  ) 
 Here is how much of TeX's memory you used:
- 12335 strings out of 493105
- 173315 string characters out of 6137072
- 314669 words of memory out of 5000000
- 15399 multiletter control sequences out of 15000+600000
- 47219 words of font info for 93 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 36i,12n,38p,3281b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on "delaflevering 4.pdf" (20 pages, 903770 bytes).
+ 12128 strings out of 493921
+ 169922 string characters out of 3147285
+ 307754 words of memory out of 3000000
+ 15026 multiletter control sequences out of 15000+200000
+ 47219 words of font info for 93 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,12n,38p,3328b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on "delaflevering 4.pdf" (21 pages, 935545 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 114 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,30 +18,33 @@
 \contentsline {section}{\numberline {8}Litteraturreview}{16}{section.8}
 \contentsline {subsection}{\numberline {8.1}Jim Highsmith: Extreme Programming - review}{16}{subsection.8.1}
 \contentsline {section}{\numberline {9}Bilag}{17}{section.9}
-\contentsline {subsection}{\numberline {9.1}Test plan}{17}{subsection.9.1}
-\contentsline {paragraph}{Systemoversigt}{18}{section*.11}
-\contentsline {paragraph}{Test og mangler}{18}{section*.12}
-\contentsline {paragraph}{hardware og software krav}{18}{section*.13}
-\contentsline {paragraph}{Pr\IeC {\o }ve plan}{18}{section*.14}
-\contentsline {subsection}{\numberline {9.2}Test plan specification}{18}{subsection.9.2}
-\contentsline {paragraph}{Admin:}{18}{section*.15}
-\contentsline {subparagraph}{Login system}{18}{section*.16}
-\contentsline {subparagraph}{Test item}{18}{section*.17}
-\contentsline {subparagraph}{Output}{18}{section*.18}
-\contentsline {paragraph}{Alle bruger:}{19}{section*.19}
-\contentsline {subparagraph}{Tilf\IeC {\o }j booking}{19}{section*.20}
-\contentsline {subparagraph}{Test item}{19}{section*.21}
-\contentsline {subparagraph}{Output}{19}{section*.22}
-\contentsline {paragraph}{Admin:}{19}{section*.23}
-\contentsline {subparagraph}{Slet booking}{19}{section*.24}
-\contentsline {subparagraph}{Test item}{19}{section*.25}
-\contentsline {subparagraph}{Output}{19}{section*.26}
-\contentsline {paragraph}{Admin:}{19}{section*.27}
-\contentsline {subparagraph}{\IeC {\AE }ndre gallery}{19}{section*.28}
-\contentsline {subparagraph}{Test item}{19}{section*.29}
-\contentsline {subparagraph}{Input specifikation}{20}{section*.30}
-\contentsline {subparagraph}{Output}{20}{section*.31}
-\contentsline {paragraph}{Admin:}{20}{section*.32}
-\contentsline {subparagraph}{\IeC {\AE }ndre tekst}{20}{section*.33}
-\contentsline {subparagraph}{Test item}{20}{section*.34}
-\contentsline {subparagraph}{Output}{20}{section*.35}
+\contentsline {subsection}{\numberline {9.1}Bilag 1: Versionsstyring}{17}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Bilag 2: Changelog for projektrapporten}{18}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Bilag 3: Timeline}{18}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Bilag 4: Test plan}{18}{subsection.9.4}
+\contentsline {paragraph}{Systemoversigt}{18}{section*.12}
+\contentsline {paragraph}{Test og mangler}{19}{section*.13}
+\contentsline {paragraph}{Hardware og software krav}{19}{section*.14}
+\contentsline {paragraph}{Pr\IeC {\o }ve plan}{19}{section*.15}
+\contentsline {subsubsection}{\numberline {9.4.1}Test plan specification}{19}{subsubsection.9.4.1}
+\contentsline {paragraph}{Admin:}{19}{section*.16}
+\contentsline {subparagraph}{Login system}{19}{section*.17}
+\contentsline {subparagraph}{Test item}{19}{section*.18}
+\contentsline {subparagraph}{Output}{19}{section*.19}
+\contentsline {paragraph}{Alle brugere:}{20}{section*.20}
+\contentsline {subparagraph}{Tilf\IeC {\o }j booking}{20}{section*.21}
+\contentsline {subparagraph}{Test item}{20}{section*.22}
+\contentsline {subparagraph}{Output}{20}{section*.23}
+\contentsline {paragraph}{Admin:}{20}{section*.24}
+\contentsline {subparagraph}{Slet booking}{20}{section*.25}
+\contentsline {subparagraph}{Test item}{20}{section*.26}
+\contentsline {subparagraph}{Output}{20}{section*.27}
+\contentsline {paragraph}{Admin:}{20}{section*.28}
+\contentsline {subparagraph}{\IeC {\AE }ndre gallery}{20}{section*.29}
+\contentsline {subparagraph}{Test item}{20}{section*.30}
+\contentsline {subparagraph}{Input specifikation}{21}{section*.31}
+\contentsline {subparagraph}{Output}{21}{section*.32}
+\contentsline {paragraph}{Admin:}{21}{section*.33}
+\contentsline {subparagraph}{\IeC {\AE }ndre tekst}{21}{section*.34}
+\contentsline {subparagraph}{Test item}{21}{section*.35}
+\contentsline {subparagraph}{Output}{21}{section*.36}
