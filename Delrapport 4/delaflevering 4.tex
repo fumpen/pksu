@@ -324,11 +324,7 @@ Det er nu muligt at navigere mellem alle de forskellige sider på hjemmesiden. V
 Vi mangler en funktion, der gør det muligt for administratoren at ændre en booking. Desuden mangler vi stadig at lave et login-system til admin-siden.\\
 Vi skal også gøre det muligt for kunden, selv at bestemme hvilke billeder der fremvises samt redigere i teksten på de forskellige sider. Endeligt mangler vi at koble bookingsystemet til et betalingssystem.
 \section{Program- og systemtest}
-Resultetet af vores tests er som følgende:\\
-- Vi kan navigere rundt imellem vores forskellige sider.\\
-- Vi kan oprette og slette bookninger.\\
-- Vi kan sortere i bookningernes representation.
-
+Resultetet af vores test plan ligger i bilag
 \newpage
 \section{Brugergrænseflade og interaktonsdesign}
 Dette afsnit omhandler brugergrænsefladen og interaktionendesignet, for vores system. 
@@ -382,8 +378,63 @@ Internt i gruppen arbejder vi godt sammen. Cirka halvvejs inde i projektet aftal
 Vi har indtil videre haft fire møder med kunden. Møderne foregår over Skype, da kunden bor i Venezuela. På trods af at afstanden kan være upraktisk, er kunden fleksibel med dato for møder, da vi blot mødes over Skype.
 
 Under møderne tager vi referat i form af stikord, og dokumenterer de aftalte ændringer i projektaftalen og projektplanen, i rapporten. 
+\section{Litteraturreview}
+\subsection{Jim Highsmith: Extreme Programming - review}
+Extreme Programming er en software udviklings metode, der er karakteriseret ved at være åben for tilpasninger løbende i udviklingsprocessen, som har til hensigt at gøre kvaliteten og reagerer på ændringer i kundes krav. Andre elementer ved extreme programming inkluderer, parprogrammering eller lav en stor kode gennemgang, unit testing af alt koden, og undgå at programmere features før de faktisk skal benyttes og forvent ændringer i kundens krav som tiden går.
+\\
+\\
+Metoden har fire hovedprincipper
+\begin{itemize}
+	\item Kommunikation
+		\begin{itemize}
+			\item Brugere og udviklere skal kommunikerer løbende om systemet, så brugeren på en måde kan være med i udviklings processen.
+		\end{itemize}
+	\item Simpelhed
+		\begin{itemize}
+			\item Software udvikleren skal kun skrive kode der løser det problem de har her og nu og vil ikke løse problemer der muligvis kan opstå senere.
+		\end{itemize}
+		\item Feedback
+			\begin{itemize}
+				\item Der skal laves test, for at udvikleren kan se om det der er lavet virker som antaget.
+			\end{itemize}
+		\item Mod
+			\begin{itemize}
+				\item Det kræver mod at lade vær med at bruge de traditionelle udviklings metoder.
+			\end{itemize}
+\end{itemize}
+Extreme programming opererer med tolv punkter, der beskriver måden at arbejde i et extreme programming projekt i praksis.
+\begin{itemize}
+	\item Planlægning
+		\begin{itemize}
+			\item Kort 2-3 ugers cyklus, mange udgivelser.
+		\end{itemize}
+	\item Små udgivelser
+		\begin{itemize}
+			\item Alle udgivelser skal være så små som mulige, kun indeholde de mest værdifulde krav.
+		\end{itemize}
+	\item Systemmetafor
+		\begin{itemize}
+			\item Extreme programming bruger ordet metafor som en måde til at definere det overordnet mål med projektet.
+		\end{itemize}
+	\item Simpelt design
+		\begin{itemize}
+			\item Det simple design har to dele, et design for funktionaliteten. To, lave det bedste design der kan give den funktionalitet. 
+		\end{itemize}
+	\item Hyppige refaktorering
+		\begin{itemize}
+			\item Designet bliver hyppigt lavet om da kundens krav kan ændre sig.
+		\end{itemize}
+	\item Test
+	\item Parprogrammering
+	\item Fælles ejerskab til programkoden
+	\item Kontiuerlig integration
+	\item Overkommeligt arbejdstempo
+	\item Et samlet udviklingshold
+	\item Fælles kodestandard
+\end{itemize}
+I vores projekt har vi lavet lidt af en kombination af extreme programming og den mere traditionelle måde at gribe et system udviklings projekt an. Blandt andet har vi ikke implementeret ting i vores projekt før vi faktisk skulle bruge dem, vi tager en ting af gangen og prøver ikke tænke for langt fremad og kun programmere så tingene kun gør det de skal, uden nogle ekstra features. På den mere traditionelle måde har vi holdt os stramt til vores kunde specifikationer.
 
-\section{Billag}
+\section{Bilag}
 \subsection{Test plan}
 Vi har ikke til hensigt at tjekke alle typer input eller tjekke sikkerheden af vores kode. 
 
